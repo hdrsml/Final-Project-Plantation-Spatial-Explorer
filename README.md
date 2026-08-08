@@ -246,30 +246,4 @@ Project ini **tidak** mengintegrasikan sistem perusahaan secara langsung. Tujuan
 
 Project ini membantu memahami: modern JavaScript, Node.js project structure, npm, Git & GitHub, frontend development, API integration, MapLibre GL JS, GeoJSON/spatial data handling, client-side spatial processing, data visualization, map interaction, spatial selection, basic WebGIS architecture, deployment, dan maintainable frontend code.
 
-## Current Status
-
-**Status:** Planning / Initial Setup
-
-**Progress:**
-
-- [x] Project concept defined
-- [x] Project scope defined
-- [x] Node.js project initialized
-- [x] `.gitignore` created
-- [x] README project plan
-- [x] Git repository setup
-- [x] GitHub repository setup
-- [ ] MapLibre setup
-- [ ] MAPID API integration
-- [ ] Dummy operational data
-- [ ] KPI visualization
-- [ ] Production visualization
-- [ ] Yield visualization
-- [ ] Fertilizer monitoring
-- [ ] Spatial tools
-- [ ] Buffer
-- [ ] Map printing
-- [ ] Testing
-- [ ] Deployment
-
 Belum ada fitur aplikasi yang selesai dikerjakan. MAPID API integration, dummy operational data, KPI/chart visualization, spatial tools, dan map printing belum dimulai dan akan dikembangkan sesuai roadmap di atas.
