@@ -257,8 +257,8 @@ Project ini membantu memahami: modern JavaScript, Node.js project structure, npm
 - [x] Node.js project initialized
 - [x] `.gitignore` created
 - [x] README project plan
-- [ ] Git repository setup
-- [ ] GitHub repository setup
+- [x] Git repository setup
+- [x] GitHub repository setup
 - [ ] MapLibre setup
 - [ ] MAPID API integration
 - [ ] Dummy operational data
