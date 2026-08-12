@@ -1,13 +1,235 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>plantation-spatial-explorer</title>
+    <title>Plantation Spatial Explorer</title>
+    <meta
+      name="description"
+      content="WebGIS portfolio project yang menghubungkan spatial data perkebunan kelapa sawit dengan production, yield, dan fertilizer monitoring."
+    />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/theme.css" />
+    <link rel="stylesheet" href="/src/styles/header.css" />
+    <link rel="stylesheet" href="/src/styles/home.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="app" class="home-app">
+      <header id="site-header" class="site-header"></header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <span class="eyebrow">WebGIS Portfolio Project</span>
+              <h1>Plantation Spatial Explorer</h1>
+              <p class="hero-lead">
+                Menghubungkan spatial data perkebunan kelapa sawit dengan informasi operasional — production,
+                yield, dan fertilizer monitoring — dalam satu peta interaktif berbasis MapLibre GL JS.
+              </p>
+
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="/dashboard.html">Buka Dashboard</a>
+                <a class="btn btn-ghost" href="#tentang-data">Lihat Data</a>
+              </div>
+
+              <div class="hero-stats">
+                <div class="hero-stat">
+                  <strong id="stat-area">—</strong>
+                  <span>Total Area</span>
+                </div>
+                <div class="hero-stat">
+                  <strong id="stat-block">—</strong>
+                  <span>Plantation Block</span>
+                </div>
+                <div class="hero-stat">
+                  <strong id="stat-division">—</strong>
+                  <span>Division</span>
+                </div>
+                <div class="hero-stat">
+                  <strong id="stat-year-range">—</strong>
+                  <span>Tahun Tanam</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="hero-visual-card">
+                <div id="hero-map"></div>
+              </div>
+              <div class="hero-visual-badge">PT Mencari Cinta Sejati · Estate Overview</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="objective">
+          <div class="section-inner">
+            <span class="section-eyebrow">Objective</span>
+            <h2>WebGIS yang menghubungkan peta dengan data operasional</h2>
+            <p class="section-lead">
+              Plantation Spatial Explorer adalah portfolio WebGIS yang menunjukkan bagaimana satu spatial
+              unit — Plantation Block — bisa terhubung langsung ke data operasional kebun kelapa sawit:
+              production, yield, fertilizer, hingga leaf sampling. Dibangun di atas MapLibre GL JS dan MAPID
+              API sebagai final project WebGIS Development Bootcamp, sekaligus eksplorasi personal saya di
+              luar ekosistem ArcGIS Enterprise.
+            </p>
+
+            <div class="objective-grid">
+              <div class="objective-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                </div>
+                <h3>Spatial Data</h3>
+                <p>Estate &amp; Plantation Block dari MAPID API, dengan local GeoJSON sebagai fallback.</p>
+              </div>
+              <div class="objective-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <h3>Operational Data</h3>
+                <p>Production, yield, dan fertilizer monitoring — terhubung ke tiap block lewat kode block.</p>
+              </div>
+              <div class="objective-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                </div>
+                <h3>Spatial Analysis</h3>
+                <p>Bukan sekadar map viewer — memilih satu block akan membaca konteks di sekitarnya.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="tentang-data">
+          <div class="section-inner">
+            <span class="section-eyebrow">Data</span>
+            <h2>Data yang dipakai</h2>
+            <p class="section-lead">
+              Semua data di project ini adalah <strong>dummy/simulasi</strong> milik perusahaan fiktif
+              <strong>PT Mencari Cinta Sejati</strong> — dibuat untuk demonstrasi, bukan kebun sungguhan.
+            </p>
+
+            <div class="data-grid">
+              <div class="data-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+                </div>
+                <span class="data-card-tag">Spasial</span>
+                <h3>Estate &amp; Plantation Block</h3>
+                <p>Geometry &amp; atribut dari MAPID API: <code>BLOCK</code>, <code>DIVISION</code>, <code>AREA</code>, <code>PLANT_YEAR</code>, status kematangan.</p>
+                <ul>
+                  <li>1 Estate · 2 Division · 30 Block</li>
+                  <li>±458 ha luas total</li>
+                </ul>
+              </div>
+              <div class="data-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <span class="data-card-tag">Operasional</span>
+                <h3>Production &amp; Yield</h3>
+                <p>Tonase FFB, jumlah tandan, dan yield per block per periode — basis peta tematik Production.</p>
+                <ul>
+                  <li><code>TONNAGE_TON</code>, <code>YIELD_TON_HA</code></li>
+                  <li><code>BUNCH_COUNT</code></li>
+                </ul>
+              </div>
+              <div class="data-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 17.7 8.3a8 8 0 1 1-11.3 0z"/></svg>
+                </div>
+                <span class="data-card-tag">Agronomy</span>
+                <h3>Fertilizer Monitoring</h3>
+                <p>Dosis &amp; status aplikasi pupuk per periode — basis peta tematik Fertilizer Status.</p>
+                <ul>
+                  <li><code>DOSAGE_KG_HA</code></li>
+                  <li><code>STATUS</code> — Applied / Planned</li>
+                </ul>
+              </div>
+              <div class="data-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c0-5 4-9 9-9 5 0 7 3 7 3s-1 8-7 10c-4 1.3-9-1-9-4Z"/><path d="M4 20c3-4 7-6 12-9"/></svg>
+                </div>
+                <span class="data-card-tag">Agronomy</span>
+                <h3>Leaf Sampling (LSU)</h3>
+                <p>Hasil analisis nutrisi daun per block, ditampilkan sebagai nutrient balance chart.</p>
+                <ul>
+                  <li><code>N_PERCENT</code>, <code>P_PERCENT</code></li>
+                  <li><code>K_PERCENT</code></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="fitur">
+          <div class="section-inner">
+            <span class="section-eyebrow">Fitur</span>
+            <h2>Yang bisa dilakukan di Dashboard</h2>
+            <p class="section-lead">
+              Enam kemampuan inti, semua saling terhubung lewat satu block yang dipilih di peta.
+            </p>
+
+            <div class="feature-grid">
+              <div class="feature-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </div>
+                <h3>Interactive Map</h3>
+                <p>Navigasi Estate &amp; Block, popup detail, search block dengan autocomplete, filter per Division.</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <h3>KPI &amp; Overview</h3>
+                <p>Ringkasan Division, Block, Area, dan Yield yang mengikuti filter, lengkap chart Block Maturity.</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 17.7 8.3a8 8 0 1 1-11.3 0z"/></svg>
+                </div>
+                <h3>Production &amp; Fertilizer Map</h3>
+                <p>Peta tematik yield dan status pupuk per block, digeser lewat slider periode bulanan.</p>
+              </div>
+              <div class="feature-card feature-card-highlight">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                </div>
+                <h3>Operational Spatial Analysis</h3>
+                <p>Block Benchmark, Nearby Analysis, dan Performance Cluster — membandingkan satu block dengan block di sekitarnya, secara spasial.</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="8" rx="1.5"/><path d="M7 8v3M11 8v3M15 8v3M19 8v3"/></svg>
+                </div>
+                <h3>Measure Tool</h3>
+                <p>Ukur jarak (meter) dan luas (hektar) langsung di peta, dengan live preview saat menggambar.</p>
+              </div>
+              <div class="feature-card">
+                <div class="icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                </div>
+                <h3>Print Map</h3>
+                <p>Ekspor peta ke layout siap cetak A4/A3, lengkap judul, legend, dan scale bar.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>Plantation Spatial Explorer — WebGIS Bootcamp Final Project</span>
+        <a href="/about.html">Tentang Pembuat</a>
+      </footer>
+    </div>
+
+    <script type="module" src="/src/pages/home.js"></script>
   </body>
 </html>

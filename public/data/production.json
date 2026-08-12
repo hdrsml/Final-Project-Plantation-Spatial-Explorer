@@ -1,0 +1,2945 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.19,
+        "YIELD_TON_HA": 0.074,
+        "BUNCH_COUNT": 134,
+        "AVG_BUNCH_WEIGHT_KG": 8.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.25,
+        "YIELD_TON_HA": 0.078,
+        "BUNCH_COUNT": 131,
+        "AVG_BUNCH_WEIGHT_KG": 9.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.14,
+        "YIELD_TON_HA": 0.071,
+        "BUNCH_COUNT": 153,
+        "AVG_BUNCH_WEIGHT_KG": 7.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.11,
+        "YIELD_TON_HA": 0.069,
+        "BUNCH_COUNT": 156,
+        "AVG_BUNCH_WEIGHT_KG": 7.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.06,
+        "YIELD_TON_HA": 0.066,
+        "BUNCH_COUNT": 110,
+        "AVG_BUNCH_WEIGHT_KG": 9.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.14,
+        "YIELD_TON_HA": 0.071,
+        "BUNCH_COUNT": 135,
+        "AVG_BUNCH_WEIGHT_KG": 8.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 16.08,
+        "TONNAGE_TON": 1.21,
+        "YIELD_TON_HA": 0.075,
+        "BUNCH_COUNT": 136,
+        "AVG_BUNCH_WEIGHT_KG": 8.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 37.52,
+        "YIELD_TON_HA": 2.182,
+        "BUNCH_COUNT": 2122,
+        "AVG_BUNCH_WEIGHT_KG": 17.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 37.4,
+        "YIELD_TON_HA": 2.175,
+        "BUNCH_COUNT": 1924,
+        "AVG_BUNCH_WEIGHT_KG": 19.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 31.76,
+        "YIELD_TON_HA": 1.847,
+        "BUNCH_COUNT": 2094,
+        "AVG_BUNCH_WEIGHT_KG": 15.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 32.69,
+        "YIELD_TON_HA": 1.901,
+        "BUNCH_COUNT": 1651,
+        "AVG_BUNCH_WEIGHT_KG": 19.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 32.6,
+        "YIELD_TON_HA": 1.896,
+        "BUNCH_COUNT": 1701,
+        "AVG_BUNCH_WEIGHT_KG": 19.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 38.16,
+        "YIELD_TON_HA": 2.219,
+        "BUNCH_COUNT": 2149,
+        "AVG_BUNCH_WEIGHT_KG": 17.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 17.2,
+        "TONNAGE_TON": 37.57,
+        "YIELD_TON_HA": 2.185,
+        "BUNCH_COUNT": 2247,
+        "AVG_BUNCH_WEIGHT_KG": 16.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 43.44,
+        "YIELD_TON_HA": 2.523,
+        "BUNCH_COUNT": 2074,
+        "AVG_BUNCH_WEIGHT_KG": 20.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 48.78,
+        "YIELD_TON_HA": 2.833,
+        "BUNCH_COUNT": 3294,
+        "AVG_BUNCH_WEIGHT_KG": 14.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 42.68,
+        "YIELD_TON_HA": 2.479,
+        "BUNCH_COUNT": 2945,
+        "AVG_BUNCH_WEIGHT_KG": 14.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 51.95,
+        "YIELD_TON_HA": 3.017,
+        "BUNCH_COUNT": 3143,
+        "AVG_BUNCH_WEIGHT_KG": 16.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 49.95,
+        "YIELD_TON_HA": 2.901,
+        "BUNCH_COUNT": 2345,
+        "AVG_BUNCH_WEIGHT_KG": 21.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 48.11,
+        "YIELD_TON_HA": 2.794,
+        "BUNCH_COUNT": 2741,
+        "AVG_BUNCH_WEIGHT_KG": 17.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 17.22,
+        "TONNAGE_TON": 48.88,
+        "YIELD_TON_HA": 2.839,
+        "BUNCH_COUNT": 2999,
+        "AVG_BUNCH_WEIGHT_KG": 16.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 43.28,
+        "YIELD_TON_HA": 2.518,
+        "BUNCH_COUNT": 2167,
+        "AVG_BUNCH_WEIGHT_KG": 19.97
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 47.24,
+        "YIELD_TON_HA": 2.748,
+        "BUNCH_COUNT": 2534,
+        "AVG_BUNCH_WEIGHT_KG": 18.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 37.04,
+        "YIELD_TON_HA": 2.155,
+        "BUNCH_COUNT": 2565,
+        "AVG_BUNCH_WEIGHT_KG": 14.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 47.42,
+        "YIELD_TON_HA": 2.759,
+        "BUNCH_COUNT": 2886,
+        "AVG_BUNCH_WEIGHT_KG": 16.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 45.96,
+        "YIELD_TON_HA": 2.674,
+        "BUNCH_COUNT": 2293,
+        "AVG_BUNCH_WEIGHT_KG": 20.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 38.73,
+        "YIELD_TON_HA": 2.253,
+        "BUNCH_COUNT": 2016,
+        "AVG_BUNCH_WEIGHT_KG": 19.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 17.19,
+        "TONNAGE_TON": 37.71,
+        "YIELD_TON_HA": 2.194,
+        "BUNCH_COUNT": 1930,
+        "AVG_BUNCH_WEIGHT_KG": 19.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 38.6,
+        "YIELD_TON_HA": 1.959,
+        "BUNCH_COUNT": 2337,
+        "AVG_BUNCH_WEIGHT_KG": 16.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 40.75,
+        "YIELD_TON_HA": 2.068,
+        "BUNCH_COUNT": 2126,
+        "AVG_BUNCH_WEIGHT_KG": 19.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 39.65,
+        "YIELD_TON_HA": 2.012,
+        "BUNCH_COUNT": 2409,
+        "AVG_BUNCH_WEIGHT_KG": 16.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 37.07,
+        "YIELD_TON_HA": 1.881,
+        "BUNCH_COUNT": 2070,
+        "AVG_BUNCH_WEIGHT_KG": 17.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 40.48,
+        "YIELD_TON_HA": 2.054,
+        "BUNCH_COUNT": 2641,
+        "AVG_BUNCH_WEIGHT_KG": 15.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 35.57,
+        "YIELD_TON_HA": 1.805,
+        "BUNCH_COUNT": 1927,
+        "AVG_BUNCH_WEIGHT_KG": 18.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 19.71,
+        "TONNAGE_TON": 39.75,
+        "YIELD_TON_HA": 2.017,
+        "BUNCH_COUNT": 2654,
+        "AVG_BUNCH_WEIGHT_KG": 14.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 30.12,
+        "YIELD_TON_HA": 1.671,
+        "BUNCH_COUNT": 1410,
+        "AVG_BUNCH_WEIGHT_KG": 21.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 37.53,
+        "YIELD_TON_HA": 2.082,
+        "BUNCH_COUNT": 1992,
+        "AVG_BUNCH_WEIGHT_KG": 18.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 39.21,
+        "YIELD_TON_HA": 2.175,
+        "BUNCH_COUNT": 2107,
+        "AVG_BUNCH_WEIGHT_KG": 18.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 34.41,
+        "YIELD_TON_HA": 1.909,
+        "BUNCH_COUNT": 1624,
+        "AVG_BUNCH_WEIGHT_KG": 21.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 30.3,
+        "YIELD_TON_HA": 1.681,
+        "BUNCH_COUNT": 1852,
+        "AVG_BUNCH_WEIGHT_KG": 16.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 35.89,
+        "YIELD_TON_HA": 1.991,
+        "BUNCH_COUNT": 2536,
+        "AVG_BUNCH_WEIGHT_KG": 14.15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 18.03,
+        "TONNAGE_TON": 34.81,
+        "YIELD_TON_HA": 1.931,
+        "BUNCH_COUNT": 1944,
+        "AVG_BUNCH_WEIGHT_KG": 17.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 23.14,
+        "YIELD_TON_HA": 1.986,
+        "BUNCH_COUNT": 1273,
+        "AVG_BUNCH_WEIGHT_KG": 18.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 23.62,
+        "YIELD_TON_HA": 2.027,
+        "BUNCH_COUNT": 1244,
+        "AVG_BUNCH_WEIGHT_KG": 18.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 28.8,
+        "YIELD_TON_HA": 2.472,
+        "BUNCH_COUNT": 1443,
+        "AVG_BUNCH_WEIGHT_KG": 19.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 23.3,
+        "YIELD_TON_HA": 2.0,
+        "BUNCH_COUNT": 1478,
+        "AVG_BUNCH_WEIGHT_KG": 15.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 29.19,
+        "YIELD_TON_HA": 2.505,
+        "BUNCH_COUNT": 1800,
+        "AVG_BUNCH_WEIGHT_KG": 16.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 30.78,
+        "YIELD_TON_HA": 2.642,
+        "BUNCH_COUNT": 1447,
+        "AVG_BUNCH_WEIGHT_KG": 21.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 11.65,
+        "TONNAGE_TON": 28.78,
+        "YIELD_TON_HA": 2.47,
+        "BUNCH_COUNT": 1576,
+        "AVG_BUNCH_WEIGHT_KG": 18.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 29.07,
+        "YIELD_TON_HA": 2.296,
+        "BUNCH_COUNT": 1400,
+        "AVG_BUNCH_WEIGHT_KG": 20.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 26.62,
+        "YIELD_TON_HA": 2.103,
+        "BUNCH_COUNT": 1615,
+        "AVG_BUNCH_WEIGHT_KG": 16.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 32.66,
+        "YIELD_TON_HA": 2.58,
+        "BUNCH_COUNT": 1927,
+        "AVG_BUNCH_WEIGHT_KG": 16.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 31.84,
+        "YIELD_TON_HA": 2.515,
+        "BUNCH_COUNT": 1689,
+        "AVG_BUNCH_WEIGHT_KG": 18.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 28.39,
+        "YIELD_TON_HA": 2.243,
+        "BUNCH_COUNT": 2001,
+        "AVG_BUNCH_WEIGHT_KG": 14.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 29.15,
+        "YIELD_TON_HA": 2.303,
+        "BUNCH_COUNT": 1938,
+        "AVG_BUNCH_WEIGHT_KG": 15.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 12.66,
+        "TONNAGE_TON": 26.06,
+        "YIELD_TON_HA": 2.059,
+        "BUNCH_COUNT": 1503,
+        "AVG_BUNCH_WEIGHT_KG": 17.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 29.82,
+        "YIELD_TON_HA": 2.224,
+        "BUNCH_COUNT": 1697,
+        "AVG_BUNCH_WEIGHT_KG": 17.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 38.03,
+        "YIELD_TON_HA": 2.836,
+        "BUNCH_COUNT": 1792,
+        "AVG_BUNCH_WEIGHT_KG": 21.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 29.17,
+        "YIELD_TON_HA": 2.175,
+        "BUNCH_COUNT": 1871,
+        "AVG_BUNCH_WEIGHT_KG": 15.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 37.32,
+        "YIELD_TON_HA": 2.783,
+        "BUNCH_COUNT": 1698,
+        "AVG_BUNCH_WEIGHT_KG": 21.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 33.56,
+        "YIELD_TON_HA": 2.503,
+        "BUNCH_COUNT": 2031,
+        "AVG_BUNCH_WEIGHT_KG": 16.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 37.61,
+        "YIELD_TON_HA": 2.805,
+        "BUNCH_COUNT": 1750,
+        "AVG_BUNCH_WEIGHT_KG": 21.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.41,
+        "TONNAGE_TON": 34.13,
+        "YIELD_TON_HA": 2.545,
+        "BUNCH_COUNT": 1653,
+        "AVG_BUNCH_WEIGHT_KG": 20.65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 30.57,
+        "YIELD_TON_HA": 2.23,
+        "BUNCH_COUNT": 1505,
+        "AVG_BUNCH_WEIGHT_KG": 20.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 31.68,
+        "YIELD_TON_HA": 2.311,
+        "BUNCH_COUNT": 1935,
+        "AVG_BUNCH_WEIGHT_KG": 16.37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 35.44,
+        "YIELD_TON_HA": 2.585,
+        "BUNCH_COUNT": 1779,
+        "AVG_BUNCH_WEIGHT_KG": 19.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 30.39,
+        "YIELD_TON_HA": 2.217,
+        "BUNCH_COUNT": 1520,
+        "AVG_BUNCH_WEIGHT_KG": 20.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 32.57,
+        "YIELD_TON_HA": 2.376,
+        "BUNCH_COUNT": 2132,
+        "AVG_BUNCH_WEIGHT_KG": 15.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 37.49,
+        "YIELD_TON_HA": 2.735,
+        "BUNCH_COUNT": 1758,
+        "AVG_BUNCH_WEIGHT_KG": 21.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.71,
+        "TONNAGE_TON": 30.21,
+        "YIELD_TON_HA": 2.204,
+        "BUNCH_COUNT": 1742,
+        "AVG_BUNCH_WEIGHT_KG": 17.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 24.79,
+        "YIELD_TON_HA": 1.768,
+        "BUNCH_COUNT": 1324,
+        "AVG_BUNCH_WEIGHT_KG": 18.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 21.33,
+        "YIELD_TON_HA": 1.521,
+        "BUNCH_COUNT": 1018,
+        "AVG_BUNCH_WEIGHT_KG": 20.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 20.91,
+        "YIELD_TON_HA": 1.491,
+        "BUNCH_COUNT": 1283,
+        "AVG_BUNCH_WEIGHT_KG": 16.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 26.07,
+        "YIELD_TON_HA": 1.859,
+        "BUNCH_COUNT": 1390,
+        "AVG_BUNCH_WEIGHT_KG": 18.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 25.52,
+        "YIELD_TON_HA": 1.82,
+        "BUNCH_COUNT": 1772,
+        "AVG_BUNCH_WEIGHT_KG": 14.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 23.6,
+        "YIELD_TON_HA": 1.683,
+        "BUNCH_COUNT": 1663,
+        "AVG_BUNCH_WEIGHT_KG": 14.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 14.02,
+        "TONNAGE_TON": 24.76,
+        "YIELD_TON_HA": 1.766,
+        "BUNCH_COUNT": 1384,
+        "AVG_BUNCH_WEIGHT_KG": 17.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 38.62,
+        "YIELD_TON_HA": 2.807,
+        "BUNCH_COUNT": 2514,
+        "AVG_BUNCH_WEIGHT_KG": 15.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 43.53,
+        "YIELD_TON_HA": 3.164,
+        "BUNCH_COUNT": 2803,
+        "AVG_BUNCH_WEIGHT_KG": 15.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 39.87,
+        "YIELD_TON_HA": 2.898,
+        "BUNCH_COUNT": 2840,
+        "AVG_BUNCH_WEIGHT_KG": 14.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 40.02,
+        "YIELD_TON_HA": 2.909,
+        "BUNCH_COUNT": 2077,
+        "AVG_BUNCH_WEIGHT_KG": 19.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 44.03,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 3028,
+        "AVG_BUNCH_WEIGHT_KG": 14.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 38.8,
+        "YIELD_TON_HA": 2.82,
+        "BUNCH_COUNT": 2554,
+        "AVG_BUNCH_WEIGHT_KG": 15.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.76,
+        "TONNAGE_TON": 34.81,
+        "YIELD_TON_HA": 2.53,
+        "BUNCH_COUNT": 2087,
+        "AVG_BUNCH_WEIGHT_KG": 16.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 19.78,
+        "YIELD_TON_HA": 1.419,
+        "BUNCH_COUNT": 1010,
+        "AVG_BUNCH_WEIGHT_KG": 19.58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 22.64,
+        "YIELD_TON_HA": 1.624,
+        "BUNCH_COUNT": 1099,
+        "AVG_BUNCH_WEIGHT_KG": 20.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 21.68,
+        "YIELD_TON_HA": 1.555,
+        "BUNCH_COUNT": 1366,
+        "AVG_BUNCH_WEIGHT_KG": 15.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 20.41,
+        "YIELD_TON_HA": 1.464,
+        "BUNCH_COUNT": 1261,
+        "AVG_BUNCH_WEIGHT_KG": 16.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 23.67,
+        "YIELD_TON_HA": 1.698,
+        "BUNCH_COUNT": 1165,
+        "AVG_BUNCH_WEIGHT_KG": 20.32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 21.72,
+        "YIELD_TON_HA": 1.558,
+        "BUNCH_COUNT": 1010,
+        "AVG_BUNCH_WEIGHT_KG": 21.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.94,
+        "TONNAGE_TON": 23.8,
+        "YIELD_TON_HA": 1.707,
+        "BUNCH_COUNT": 1446,
+        "AVG_BUNCH_WEIGHT_KG": 16.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 42.13,
+        "YIELD_TON_HA": 3.039,
+        "BUNCH_COUNT": 2512,
+        "AVG_BUNCH_WEIGHT_KG": 16.77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 36.38,
+        "YIELD_TON_HA": 2.624,
+        "BUNCH_COUNT": 2034,
+        "AVG_BUNCH_WEIGHT_KG": 17.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 40.41,
+        "YIELD_TON_HA": 2.915,
+        "BUNCH_COUNT": 2211,
+        "AVG_BUNCH_WEIGHT_KG": 18.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 42.17,
+        "YIELD_TON_HA": 3.042,
+        "BUNCH_COUNT": 2808,
+        "AVG_BUNCH_WEIGHT_KG": 15.02
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 35.53,
+        "YIELD_TON_HA": 2.563,
+        "BUNCH_COUNT": 1651,
+        "AVG_BUNCH_WEIGHT_KG": 21.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 33.28,
+        "YIELD_TON_HA": 2.401,
+        "BUNCH_COUNT": 1925,
+        "AVG_BUNCH_WEIGHT_KG": 17.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.86,
+        "TONNAGE_TON": 39.98,
+        "YIELD_TON_HA": 2.884,
+        "BUNCH_COUNT": 2304,
+        "AVG_BUNCH_WEIGHT_KG": 17.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 32.39,
+        "YIELD_TON_HA": 2.436,
+        "BUNCH_COUNT": 1893,
+        "AVG_BUNCH_WEIGHT_KG": 17.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 32.96,
+        "YIELD_TON_HA": 2.479,
+        "BUNCH_COUNT": 1532,
+        "AVG_BUNCH_WEIGHT_KG": 21.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 41.87,
+        "YIELD_TON_HA": 3.149,
+        "BUNCH_COUNT": 2982,
+        "AVG_BUNCH_WEIGHT_KG": 14.04
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 34.74,
+        "YIELD_TON_HA": 2.613,
+        "BUNCH_COUNT": 1679,
+        "AVG_BUNCH_WEIGHT_KG": 20.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 37.89,
+        "YIELD_TON_HA": 2.85,
+        "BUNCH_COUNT": 2550,
+        "AVG_BUNCH_WEIGHT_KG": 14.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 33.2,
+        "YIELD_TON_HA": 2.497,
+        "BUNCH_COUNT": 2016,
+        "AVG_BUNCH_WEIGHT_KG": 16.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.3,
+        "TONNAGE_TON": 36.55,
+        "YIELD_TON_HA": 2.749,
+        "BUNCH_COUNT": 2321,
+        "AVG_BUNCH_WEIGHT_KG": 15.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 36.01,
+        "YIELD_TON_HA": 2.561,
+        "BUNCH_COUNT": 1930,
+        "AVG_BUNCH_WEIGHT_KG": 18.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 36.4,
+        "YIELD_TON_HA": 2.589,
+        "BUNCH_COUNT": 2436,
+        "AVG_BUNCH_WEIGHT_KG": 14.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 33.0,
+        "YIELD_TON_HA": 2.347,
+        "BUNCH_COUNT": 1941,
+        "AVG_BUNCH_WEIGHT_KG": 17.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 34.14,
+        "YIELD_TON_HA": 2.428,
+        "BUNCH_COUNT": 1818,
+        "AVG_BUNCH_WEIGHT_KG": 18.78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 36.02,
+        "YIELD_TON_HA": 2.562,
+        "BUNCH_COUNT": 2454,
+        "AVG_BUNCH_WEIGHT_KG": 14.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 32.79,
+        "YIELD_TON_HA": 2.332,
+        "BUNCH_COUNT": 1662,
+        "AVG_BUNCH_WEIGHT_KG": 19.73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 14.06,
+        "TONNAGE_TON": 34.55,
+        "YIELD_TON_HA": 2.457,
+        "BUNCH_COUNT": 2049,
+        "AVG_BUNCH_WEIGHT_KG": 16.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 41.78,
+        "YIELD_TON_HA": 1.964,
+        "BUNCH_COUNT": 2423,
+        "AVG_BUNCH_WEIGHT_KG": 17.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 39.8,
+        "YIELD_TON_HA": 1.871,
+        "BUNCH_COUNT": 1885,
+        "AVG_BUNCH_WEIGHT_KG": 21.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 36.48,
+        "YIELD_TON_HA": 1.715,
+        "BUNCH_COUNT": 2564,
+        "AVG_BUNCH_WEIGHT_KG": 14.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 37.31,
+        "YIELD_TON_HA": 1.754,
+        "BUNCH_COUNT": 2509,
+        "AVG_BUNCH_WEIGHT_KG": 14.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 40.36,
+        "YIELD_TON_HA": 1.897,
+        "BUNCH_COUNT": 2253,
+        "AVG_BUNCH_WEIGHT_KG": 17.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 36.74,
+        "YIELD_TON_HA": 1.727,
+        "BUNCH_COUNT": 1822,
+        "AVG_BUNCH_WEIGHT_KG": 20.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 21.27,
+        "TONNAGE_TON": 40.44,
+        "YIELD_TON_HA": 1.901,
+        "BUNCH_COUNT": 2009,
+        "AVG_BUNCH_WEIGHT_KG": 20.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 33.71,
+        "YIELD_TON_HA": 2.773,
+        "BUNCH_COUNT": 2219,
+        "AVG_BUNCH_WEIGHT_KG": 15.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 33.37,
+        "YIELD_TON_HA": 2.745,
+        "BUNCH_COUNT": 1600,
+        "AVG_BUNCH_WEIGHT_KG": 20.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 32.78,
+        "YIELD_TON_HA": 2.696,
+        "BUNCH_COUNT": 2283,
+        "AVG_BUNCH_WEIGHT_KG": 14.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 30.22,
+        "YIELD_TON_HA": 2.486,
+        "BUNCH_COUNT": 1515,
+        "AVG_BUNCH_WEIGHT_KG": 19.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 30.48,
+        "YIELD_TON_HA": 2.507,
+        "BUNCH_COUNT": 1693,
+        "AVG_BUNCH_WEIGHT_KG": 18.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 32.84,
+        "YIELD_TON_HA": 2.701,
+        "BUNCH_COUNT": 1786,
+        "AVG_BUNCH_WEIGHT_KG": 18.39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 12.16,
+        "TONNAGE_TON": 30.41,
+        "YIELD_TON_HA": 2.501,
+        "BUNCH_COUNT": 1605,
+        "AVG_BUNCH_WEIGHT_KG": 18.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 28.45,
+        "YIELD_TON_HA": 2.644,
+        "BUNCH_COUNT": 1454,
+        "AVG_BUNCH_WEIGHT_KG": 19.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 28.63,
+        "YIELD_TON_HA": 2.661,
+        "BUNCH_COUNT": 2030,
+        "AVG_BUNCH_WEIGHT_KG": 14.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 28.53,
+        "YIELD_TON_HA": 2.652,
+        "BUNCH_COUNT": 1640,
+        "AVG_BUNCH_WEIGHT_KG": 17.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 26.83,
+        "YIELD_TON_HA": 2.494,
+        "BUNCH_COUNT": 1451,
+        "AVG_BUNCH_WEIGHT_KG": 18.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 34.43,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 1598,
+        "AVG_BUNCH_WEIGHT_KG": 21.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 34.43,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 1960,
+        "AVG_BUNCH_WEIGHT_KG": 17.57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 10.76,
+        "TONNAGE_TON": 26.5,
+        "YIELD_TON_HA": 2.463,
+        "BUNCH_COUNT": 1338,
+        "AVG_BUNCH_WEIGHT_KG": 19.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 23.35,
+        "YIELD_TON_HA": 1.664,
+        "BUNCH_COUNT": 1369,
+        "AVG_BUNCH_WEIGHT_KG": 17.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 23.42,
+        "YIELD_TON_HA": 1.669,
+        "BUNCH_COUNT": 1542,
+        "AVG_BUNCH_WEIGHT_KG": 15.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 23.3,
+        "YIELD_TON_HA": 1.66,
+        "BUNCH_COUNT": 1305,
+        "AVG_BUNCH_WEIGHT_KG": 17.85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 23.56,
+        "YIELD_TON_HA": 1.679,
+        "BUNCH_COUNT": 1226,
+        "AVG_BUNCH_WEIGHT_KG": 19.21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 28.73,
+        "YIELD_TON_HA": 2.047,
+        "BUNCH_COUNT": 1830,
+        "AVG_BUNCH_WEIGHT_KG": 15.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 26.73,
+        "YIELD_TON_HA": 1.905,
+        "BUNCH_COUNT": 1625,
+        "AVG_BUNCH_WEIGHT_KG": 16.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 14.03,
+        "TONNAGE_TON": 24.11,
+        "YIELD_TON_HA": 1.718,
+        "BUNCH_COUNT": 1217,
+        "AVG_BUNCH_WEIGHT_KG": 19.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 34.05,
+        "YIELD_TON_HA": 2.837,
+        "BUNCH_COUNT": 1863,
+        "AVG_BUNCH_WEIGHT_KG": 18.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 36.67,
+        "YIELD_TON_HA": 3.055,
+        "BUNCH_COUNT": 2246,
+        "AVG_BUNCH_WEIGHT_KG": 16.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 34.58,
+        "YIELD_TON_HA": 2.881,
+        "BUNCH_COUNT": 2094,
+        "AVG_BUNCH_WEIGHT_KG": 16.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 38.41,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 1871,
+        "AVG_BUNCH_WEIGHT_KG": 20.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 32.11,
+        "YIELD_TON_HA": 2.675,
+        "BUNCH_COUNT": 1738,
+        "AVG_BUNCH_WEIGHT_KG": 18.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 37.64,
+        "YIELD_TON_HA": 3.136,
+        "BUNCH_COUNT": 2110,
+        "AVG_BUNCH_WEIGHT_KG": 17.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 12.0,
+        "TONNAGE_TON": 37.94,
+        "YIELD_TON_HA": 3.161,
+        "BUNCH_COUNT": 2015,
+        "AVG_BUNCH_WEIGHT_KG": 18.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 23.91,
+        "YIELD_TON_HA": 1.717,
+        "BUNCH_COUNT": 1093,
+        "AVG_BUNCH_WEIGHT_KG": 21.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 19.88,
+        "YIELD_TON_HA": 1.428,
+        "BUNCH_COUNT": 1038,
+        "AVG_BUNCH_WEIGHT_KG": 19.16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 19.23,
+        "YIELD_TON_HA": 1.381,
+        "BUNCH_COUNT": 956,
+        "AVG_BUNCH_WEIGHT_KG": 20.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 24.62,
+        "YIELD_TON_HA": 1.768,
+        "BUNCH_COUNT": 1235,
+        "AVG_BUNCH_WEIGHT_KG": 19.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 24.23,
+        "YIELD_TON_HA": 1.74,
+        "BUNCH_COUNT": 1183,
+        "AVG_BUNCH_WEIGHT_KG": 20.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 21.43,
+        "YIELD_TON_HA": 1.539,
+        "BUNCH_COUNT": 1433,
+        "AVG_BUNCH_WEIGHT_KG": 14.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 13.92,
+        "TONNAGE_TON": 22.97,
+        "YIELD_TON_HA": 1.65,
+        "BUNCH_COUNT": 1165,
+        "AVG_BUNCH_WEIGHT_KG": 19.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 36.33,
+        "YIELD_TON_HA": 2.419,
+        "BUNCH_COUNT": 2495,
+        "AVG_BUNCH_WEIGHT_KG": 14.56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 34.23,
+        "YIELD_TON_HA": 2.279,
+        "BUNCH_COUNT": 1594,
+        "AVG_BUNCH_WEIGHT_KG": 21.47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 41.92,
+        "YIELD_TON_HA": 2.791,
+        "BUNCH_COUNT": 2973,
+        "AVG_BUNCH_WEIGHT_KG": 14.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 32.06,
+        "YIELD_TON_HA": 2.135,
+        "BUNCH_COUNT": 1650,
+        "AVG_BUNCH_WEIGHT_KG": 19.43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 31.6,
+        "YIELD_TON_HA": 2.104,
+        "BUNCH_COUNT": 1476,
+        "AVG_BUNCH_WEIGHT_KG": 21.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 41.12,
+        "YIELD_TON_HA": 2.738,
+        "BUNCH_COUNT": 2432,
+        "AVG_BUNCH_WEIGHT_KG": 16.91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 15.02,
+        "TONNAGE_TON": 31.48,
+        "YIELD_TON_HA": 2.096,
+        "BUNCH_COUNT": 1578,
+        "AVG_BUNCH_WEIGHT_KG": 19.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 57.25,
+        "YIELD_TON_HA": 3.083,
+        "BUNCH_COUNT": 2687,
+        "AVG_BUNCH_WEIGHT_KG": 21.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 54.17,
+        "YIELD_TON_HA": 2.917,
+        "BUNCH_COUNT": 3780,
+        "AVG_BUNCH_WEIGHT_KG": 14.33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 54.06,
+        "YIELD_TON_HA": 2.911,
+        "BUNCH_COUNT": 2721,
+        "AVG_BUNCH_WEIGHT_KG": 19.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 49.44,
+        "YIELD_TON_HA": 2.662,
+        "BUNCH_COUNT": 3139,
+        "AVG_BUNCH_WEIGHT_KG": 15.75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 50.12,
+        "YIELD_TON_HA": 2.699,
+        "BUNCH_COUNT": 2545,
+        "AVG_BUNCH_WEIGHT_KG": 19.69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 48.92,
+        "YIELD_TON_HA": 2.634,
+        "BUNCH_COUNT": 2591,
+        "AVG_BUNCH_WEIGHT_KG": 18.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 18.57,
+        "TONNAGE_TON": 49.53,
+        "YIELD_TON_HA": 2.667,
+        "BUNCH_COUNT": 2266,
+        "AVG_BUNCH_WEIGHT_KG": 21.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 52.4,
+        "YIELD_TON_HA": 2.377,
+        "BUNCH_COUNT": 3524,
+        "AVG_BUNCH_WEIGHT_KG": 14.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 58.84,
+        "YIELD_TON_HA": 2.669,
+        "BUNCH_COUNT": 3540,
+        "AVG_BUNCH_WEIGHT_KG": 16.62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 63.88,
+        "YIELD_TON_HA": 2.898,
+        "BUNCH_COUNT": 3909,
+        "AVG_BUNCH_WEIGHT_KG": 16.34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 59.21,
+        "YIELD_TON_HA": 2.686,
+        "BUNCH_COUNT": 3769,
+        "AVG_BUNCH_WEIGHT_KG": 15.71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 63.99,
+        "YIELD_TON_HA": 2.903,
+        "BUNCH_COUNT": 3857,
+        "AVG_BUNCH_WEIGHT_KG": 16.59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 48.59,
+        "YIELD_TON_HA": 2.204,
+        "BUNCH_COUNT": 2387,
+        "AVG_BUNCH_WEIGHT_KG": 20.36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 22.04,
+        "TONNAGE_TON": 59.26,
+        "YIELD_TON_HA": 2.688,
+        "BUNCH_COUNT": 3402,
+        "AVG_BUNCH_WEIGHT_KG": 17.42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.58,
+        "YIELD_TON_HA": 0.041,
+        "BUNCH_COUNT": 96,
+        "AVG_BUNCH_WEIGHT_KG": 6.03
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.66,
+        "YIELD_TON_HA": 0.046,
+        "BUNCH_COUNT": 106,
+        "AVG_BUNCH_WEIGHT_KG": 6.24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.61,
+        "YIELD_TON_HA": 0.043,
+        "BUNCH_COUNT": 62,
+        "AVG_BUNCH_WEIGHT_KG": 9.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.73,
+        "YIELD_TON_HA": 0.051,
+        "BUNCH_COUNT": 110,
+        "AVG_BUNCH_WEIGHT_KG": 6.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.58,
+        "YIELD_TON_HA": 0.041,
+        "BUNCH_COUNT": 84,
+        "AVG_BUNCH_WEIGHT_KG": 6.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.67,
+        "YIELD_TON_HA": 0.047,
+        "BUNCH_COUNT": 76,
+        "AVG_BUNCH_WEIGHT_KG": 8.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 14.26,
+        "TONNAGE_TON": 0.58,
+        "YIELD_TON_HA": 0.041,
+        "BUNCH_COUNT": 80,
+        "AVG_BUNCH_WEIGHT_KG": 7.26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 52.72,
+        "YIELD_TON_HA": 2.917,
+        "BUNCH_COUNT": 3320,
+        "AVG_BUNCH_WEIGHT_KG": 15.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 57.83,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 3412,
+        "AVG_BUNCH_WEIGHT_KG": 16.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 57.83,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 3238,
+        "AVG_BUNCH_WEIGHT_KG": 17.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 55.59,
+        "YIELD_TON_HA": 3.076,
+        "BUNCH_COUNT": 2538,
+        "AVG_BUNCH_WEIGHT_KG": 21.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 51.27,
+        "YIELD_TON_HA": 2.837,
+        "BUNCH_COUNT": 2614,
+        "AVG_BUNCH_WEIGHT_KG": 19.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 49.83,
+        "YIELD_TON_HA": 2.757,
+        "BUNCH_COUNT": 2741,
+        "AVG_BUNCH_WEIGHT_KG": 18.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 18.07,
+        "TONNAGE_TON": 57.83,
+        "YIELD_TON_HA": 3.2,
+        "BUNCH_COUNT": 2691,
+        "AVG_BUNCH_WEIGHT_KG": 21.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 38.9,
+        "YIELD_TON_HA": 2.568,
+        "BUNCH_COUNT": 2238,
+        "AVG_BUNCH_WEIGHT_KG": 17.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 43.04,
+        "YIELD_TON_HA": 2.841,
+        "BUNCH_COUNT": 2004,
+        "AVG_BUNCH_WEIGHT_KG": 21.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 45.66,
+        "YIELD_TON_HA": 3.014,
+        "BUNCH_COUNT": 2285,
+        "AVG_BUNCH_WEIGHT_KG": 19.98
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 44.19,
+        "YIELD_TON_HA": 2.917,
+        "BUNCH_COUNT": 2040,
+        "AVG_BUNCH_WEIGHT_KG": 21.66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 41.63,
+        "YIELD_TON_HA": 2.748,
+        "BUNCH_COUNT": 1942,
+        "AVG_BUNCH_WEIGHT_KG": 21.44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 37.33,
+        "YIELD_TON_HA": 2.464,
+        "BUNCH_COUNT": 1880,
+        "AVG_BUNCH_WEIGHT_KG": 19.86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 15.15,
+        "TONNAGE_TON": 35.83,
+        "YIELD_TON_HA": 2.365,
+        "BUNCH_COUNT": 1664,
+        "AVG_BUNCH_WEIGHT_KG": 21.53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 46.94,
+        "YIELD_TON_HA": 2.901,
+        "BUNCH_COUNT": 2878,
+        "AVG_BUNCH_WEIGHT_KG": 16.31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 49.33,
+        "YIELD_TON_HA": 3.049,
+        "BUNCH_COUNT": 2688,
+        "AVG_BUNCH_WEIGHT_KG": 18.35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 45.74,
+        "YIELD_TON_HA": 2.827,
+        "BUNCH_COUNT": 3088,
+        "AVG_BUNCH_WEIGHT_KG": 14.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 42.86,
+        "YIELD_TON_HA": 2.649,
+        "BUNCH_COUNT": 2452,
+        "AVG_BUNCH_WEIGHT_KG": 17.48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 49.69,
+        "YIELD_TON_HA": 3.071,
+        "BUNCH_COUNT": 2718,
+        "AVG_BUNCH_WEIGHT_KG": 18.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 49.33,
+        "YIELD_TON_HA": 3.049,
+        "BUNCH_COUNT": 2986,
+        "AVG_BUNCH_WEIGHT_KG": 16.52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 16.18,
+        "TONNAGE_TON": 45.22,
+        "YIELD_TON_HA": 2.795,
+        "BUNCH_COUNT": 2087,
+        "AVG_BUNCH_WEIGHT_KG": 21.67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 2.08,
+        "YIELD_TON_HA": 0.134,
+        "BUNCH_COUNT": 221,
+        "AVG_BUNCH_WEIGHT_KG": 9.41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 1.91,
+        "YIELD_TON_HA": 0.123,
+        "BUNCH_COUNT": 216,
+        "AVG_BUNCH_WEIGHT_KG": 8.83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 1.71,
+        "YIELD_TON_HA": 0.11,
+        "BUNCH_COUNT": 219,
+        "AVG_BUNCH_WEIGHT_KG": 7.81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 1.83,
+        "YIELD_TON_HA": 0.118,
+        "BUNCH_COUNT": 281,
+        "AVG_BUNCH_WEIGHT_KG": 6.51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 1.95,
+        "YIELD_TON_HA": 0.126,
+        "BUNCH_COUNT": 197,
+        "AVG_BUNCH_WEIGHT_KG": 9.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 2.03,
+        "YIELD_TON_HA": 0.131,
+        "BUNCH_COUNT": 211,
+        "AVG_BUNCH_WEIGHT_KG": 9.61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "AREA_HA": 15.51,
+        "TONNAGE_TON": 1.99,
+        "YIELD_TON_HA": 0.128,
+        "BUNCH_COUNT": 234,
+        "AVG_BUNCH_WEIGHT_KG": 8.5
+      }
+    }
+  ]
+}

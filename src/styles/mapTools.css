@@ -1,0 +1,439 @@
+/* Operational Spatial Analysis (inside the Feature Inspector) */
+.analysis-radius-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.analysis-radius-row label {
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+
+.analysis-radius-row select {
+  padding: 6px 8px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.analysis-radius-row select option {
+  color: var(--text-primary);
+  background: var(--bg-card);
+}
+
+.analysis-btn-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.analysis-btn {
+  padding: 8px 6px;
+  font-family: var(--font-body);
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.analysis-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.analysis-btn.is-active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.analysis-result {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.analysis-result-block {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+}
+
+.analysis-result-title {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.analysis-result-title.tier-low {
+  color: var(--status-critical);
+}
+
+.analysis-result-title.tier-high {
+  color: var(--status-positive);
+}
+
+.analysis-result-divider {
+  height: 1px;
+  background: var(--border-soft);
+  margin: 8px 0;
+}
+
+.analysis-result-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.analysis-result-row strong {
+  color: var(--accent-strong);
+  font-size: 13px;
+}
+
+.analysis-result-row.analysis-gap.positive strong {
+  color: var(--status-positive);
+}
+
+.analysis-result-row.analysis-gap.negative strong {
+  color: var(--status-critical);
+}
+
+/* Floating map controls: Periode, Thematic Map, Division — top-right,
+   below the zoom control. Legend appears stacked at the bottom of this
+   same panel once a thematic layer is picked. */
+.map-controls-panel {
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  z-index: 10;
+  width: 230px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: rgba(28, 29, 34, 0.94);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-elevated);
+  backdrop-filter: blur(10px);
+}
+
+.toolbar-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.toolbar-group.hidden {
+  display: none;
+}
+
+.toolbar-label {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.toolbar-group select {
+  width: 100%;
+  padding: 8px 10px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.toolbar-group select:hover,
+.toolbar-group select:focus {
+  border-color: var(--accent);
+}
+
+.toolbar-group select option {
+  color: var(--text-primary);
+  background: var(--bg-card);
+}
+
+.period-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.period-slider-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.period-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-strong);
+  white-space: nowrap;
+}
+
+/* Legend — nested inside .map-controls-panel, shown below the Division
+   select once a thematic layer is active. */
+.legend-box {
+  padding-top: 12px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.legend-box.hidden {
+  display: none;
+}
+
+.legend-title {
+  display: block;
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.legend-scale {
+  display: flex;
+  height: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.legend-swatch {
+  flex: 1;
+}
+
+.legend-range {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.legend-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.legend-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Floating bottom-left toolbar: Measure + Print */
+.floating-toolbar {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+}
+
+.floating-tool {
+  position: relative;
+}
+
+.tool-toggle-btn {
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(28, 29, 34, 0.94);
+  color: var(--text-primary);
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: var(--shadow-elevated);
+  backdrop-filter: blur(10px);
+  transition: 0.2s ease;
+}
+
+.tool-toggle-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.floating-tool-panel {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 0;
+  width: 260px;
+  padding: 14px;
+  background: rgba(28, 29, 34, 0.96);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-elevated);
+  backdrop-filter: blur(10px);
+}
+
+.floating-tool.minimized .floating-tool-panel {
+  display: none;
+}
+
+.floating-tool:not(.minimized) .tool-toggle-btn {
+  display: none;
+}
+
+.floating-tool-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.floating-tool-minimize-btn {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.floating-tool-minimize-btn:hover {
+  color: var(--accent);
+}
+
+.measure-mode-row {
+  display: flex;
+  gap: 8px;
+}
+
+.measure-mode-btn {
+  flex: 1;
+  padding: 8px 10px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.measure-mode-btn.is-active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.measure-result {
+  margin-top: 10px;
+  padding: 10px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-strong);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  min-height: 18px;
+}
+
+.measure-clear-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 10px;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.measure-clear-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+/* Print panel form */
+.print-field {
+  margin-bottom: 10px;
+}
+
+.print-field label {
+  display: block;
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.print-field input,
+.print-field select {
+  width: 100%;
+  padding: 8px 10px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.print-apply-btn {
+  width: 100%;
+  padding: 9px 10px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-contrast);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Print-only header/legend, hidden on screen */
+.print-header {
+  display: none;
+}

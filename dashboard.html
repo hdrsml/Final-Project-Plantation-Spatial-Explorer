@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard · Plantation Spatial Explorer</title>
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/theme.css" />
+    <link rel="stylesheet" href="/src/styles/header.css" />
+    <link rel="stylesheet" href="/src/styles/dashboard.css" />
+    <link rel="stylesheet" href="/src/styles/mapTools.css" />
+    <link rel="stylesheet" href="/src/styles/print.css" />
+    <style id="print-page-size"></style>
+  </head>
+  <body>
+    <div id="app" class="dashboard-app">
+      <header id="site-header" class="site-header"></header>
+
+      <div class="layout">
+        <aside class="sidebar themed-scroll">
+          <section class="panel">
+            <h2 class="panel-title">Ringkasan</h2>
+            <div class="kpi-grid">
+              <div class="kpi-card">
+                <span class="kpi-label">Total Division</span>
+                <span class="kpi-value" data-kpi="division">—</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Total Block</span>
+                <span class="kpi-value" data-kpi="block">—</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Total Area (ha)</span>
+                <span class="kpi-value" data-kpi="area">—</span>
+              </div>
+              <div class="kpi-card">
+                <span class="kpi-label">Yield to Date (ton/ha)</span>
+                <span class="kpi-value" data-kpi="yield">—</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel-title">Overview</h2>
+            <div class="overview-grid overview-grid--single">
+              <div class="overview-chart-card">
+                <span class="overview-chart-title">Block Maturity</span>
+                <div class="overview-chart-canvas overview-chart-canvas--lg">
+                  <canvas id="block-maturity-chart"></canvas>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel-title">Layers</h2>
+            <ul class="layer-list">
+              <li class="layer-item">
+                <label>
+                  <input type="checkbox" id="estate-toggle" checked />
+                  <span>Estate</span>
+                </label>
+              </li>
+              <li class="layer-item">
+                <label>
+                  <input type="checkbox" id="block-toggle" checked />
+                  <span>Plantation Block</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+        </aside>
+
+        <main class="map-wrap">
+          <div id="map"></div>
+
+          <div class="print-header" id="print-header">
+            <h1 id="print-header-title">Plantation Spatial Explorer</h1>
+            <span id="print-header-meta">PT Mencari Cinta Sejati</span>
+          </div>
+
+          <div class="legend-box hidden" id="print-legend"></div>
+
+          <div class="map-controls-panel" id="map-controls">
+            <div class="toolbar-group toolbar-group--period" id="period-panel">
+              <span class="toolbar-label">Periode</span>
+              <div class="period-slider-row">
+                <input type="range" id="period-slider" min="0" max="0" step="1" value="0" />
+                <span class="period-label" id="period-label">—</span>
+              </div>
+            </div>
+
+            <div class="toolbar-group">
+              <label class="toolbar-label" for="thematic-layer-select">Thematic Map</label>
+              <select id="thematic-layer-select">
+                <option value="none">None</option>
+                <option value="production">Production (Yield ton/ha)</option>
+                <option value="fertilizer">Fertilizer Status</option>
+              </select>
+            </div>
+
+            <div class="toolbar-group">
+              <label class="toolbar-label" for="division-filter">Division</label>
+              <select id="division-filter">
+                <option value="all">All Division</option>
+              </select>
+            </div>
+
+            <div class="legend-box hidden" id="map-legend"></div>
+          </div>
+
+          <div class="floating-toolbar">
+            <div class="floating-tool minimized" id="search-tool">
+              <button id="search-toggle-btn" class="tool-toggle-btn" type="button" title="Search Block">&#128205;</button>
+
+              <div class="floating-tool-panel">
+                <div class="floating-tool-header">
+                  <span>Search Block</span>
+                  <button id="search-minimize-btn" class="floating-tool-minimize-btn" type="button" title="Minimize">
+                    &minus;
+                  </button>
+                </div>
+
+                <div class="search-box">
+                  <div class="search-input-wrap">
+                    <input id="block-search" type="text" placeholder="Enter block name..." autocomplete="off" />
+                    <div id="block-dropdown" class="block-dropdown"></div>
+                  </div>
+
+                  <button id="block-search-btn" type="button">Search</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-tool minimized" id="measure-tool">
+              <button id="measure-toggle-btn" class="tool-toggle-btn" type="button" title="Measure">&#128207;</button>
+
+              <div class="floating-tool-panel">
+                <div class="floating-tool-header">
+                  <span>Measure</span>
+                  <button id="measure-minimize-btn" class="floating-tool-minimize-btn" type="button" title="Minimize">
+                    &minus;
+                  </button>
+                </div>
+
+                <div class="measure-mode-row">
+                  <button id="measure-line-btn" class="measure-mode-btn" type="button">Line (m)</button>
+                  <button id="measure-polygon-btn" class="measure-mode-btn" type="button">Polygon (ha)</button>
+                </div>
+
+                <div class="measure-result" id="measure-result">Pilih mode lalu klik di peta.</div>
+
+                <button id="measure-clear-btn" class="measure-clear-btn" type="button">Clear</button>
+              </div>
+            </div>
+
+            <div class="floating-tool minimized" id="print-tool">
+              <button id="print-toggle-btn" class="tool-toggle-btn" type="button" title="Print Map">&#128424;</button>
+
+              <div class="floating-tool-panel">
+                <div class="floating-tool-header">
+                  <span>Print Map</span>
+                  <button id="print-minimize-btn" class="floating-tool-minimize-btn" type="button" title="Minimize">
+                    &minus;
+                  </button>
+                </div>
+
+                <div class="print-field">
+                  <label for="print-title">Judul Peta</label>
+                  <input type="text" id="print-title" value="Plantation Spatial Explorer" />
+                </div>
+
+                <div class="print-field">
+                  <label for="print-paper-size">Ukuran Kertas</label>
+                  <select id="print-paper-size">
+                    <option value="A4">A4</option>
+                    <option value="A3">A3</option>
+                  </select>
+                </div>
+
+                <div class="print-field">
+                  <label for="print-orientation">Orientasi</label>
+                  <select id="print-orientation">
+                    <option value="landscape">Landscape</option>
+                    <option value="portrait">Portrait</option>
+                  </select>
+                </div>
+
+                <button id="print-apply-btn" class="print-apply-btn" type="button">Print</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="operational-dashboard" class="operational-dashboard hidden themed-scroll">
+            <div class="operational-dashboard-header">
+              <div>
+                <div class="operational-dashboard-title">Operational Overview</div>
+                <div class="operational-dashboard-subtitle" id="operational-dashboard-block">Select a block</div>
+              </div>
+              <button id="operational-dashboard-close" class="operational-dashboard-close">&times;</button>
+            </div>
+
+            <div class="operational-section">
+              <div class="operational-section-title">Spatial Analysis</div>
+
+              <div class="analysis-radius-row">
+                <label for="analysis-radius">Radius</label>
+                <select id="analysis-radius">
+                  <option value="250">250 m</option>
+                  <option value="500" selected>500 m</option>
+                  <option value="1000">1 km</option>
+                  <option value="2000">2 km</option>
+                </select>
+              </div>
+
+              <div class="analysis-btn-grid">
+                <button type="button" id="analysis-benchmark-btn" class="analysis-btn">Block Benchmark</button>
+                <button type="button" id="analysis-nearby-btn" class="analysis-btn">Nearby Analysis</button>
+                <button type="button" id="analysis-cluster-btn" class="analysis-btn">Performance Cluster</button>
+              </div>
+
+              <div class="analysis-result" id="analysis-result">
+                Pilih salah satu analisis untuk melihat konteks spasial block ini.
+              </div>
+            </div>
+
+            <div class="operational-section">
+              <div class="operational-section-title">FFB Production</div>
+
+              <div class="operational-kpi-grid">
+                <div class="operational-kpi">
+                  <span>Production</span>
+                  <strong id="op-production-ton">—</strong>
+                  <small>ton</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Yield</span>
+                  <strong id="op-yield">—</strong>
+                  <small>ton/ha</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Bunch Count</span>
+                  <strong id="op-bunch-count">—</strong>
+                  <small>bunches</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Avg. Bunch Weight</span>
+                  <strong id="op-avg-bunch-weight">—</strong>
+                  <small>kg</small>
+                </div>
+              </div>
+
+              <div class="operational-chart">
+                <div class="operational-chart-header">
+                  <span>Production Trend</span>
+                  <small>Monthly · YTD</small>
+                </div>
+                <canvas id="production-chart"></canvas>
+              </div>
+            </div>
+
+            <div class="operational-section">
+              <div class="operational-section-title">Fertilizer</div>
+
+              <div class="operational-kpi-grid">
+                <div class="operational-kpi">
+                  <span>Applications</span>
+                  <strong id="op-fertilizer-applications">—</strong>
+                  <small>records</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Total Fertilizer</span>
+                  <strong id="op-total-fertilizer">—</strong>
+                  <small>kg</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Dosage</span>
+                  <strong id="op-fertilizer-dosage">—</strong>
+                  <small>kg/ha</small>
+                </div>
+                <div class="operational-kpi">
+                  <span>Status</span>
+                  <strong id="op-fertilizer-status">—</strong>
+                  <small></small>
+                </div>
+              </div>
+            </div>
+
+            <div class="operational-section">
+              <div class="operational-section-title">Leaf Sampling Unit</div>
+
+              <div class="operational-kpi-grid operational-kpi-grid--single">
+                <div class="operational-kpi">
+                  <span>Samples</span>
+                  <strong id="op-lsu-samples">—</strong>
+                  <small>samples</small>
+                </div>
+              </div>
+
+              <div class="operational-chart">
+                <div class="operational-chart-header">
+                  <span>Nutrient Balance</span>
+                  <small>Latest LSU · N-P-K</small>
+                </div>
+                <canvas id="nutrient-chart"></canvas>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script type="module" src="/src/pages/dashboard.js"></script>
+  </body>
+</html>

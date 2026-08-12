@@ -1,0 +1,77 @@
+/*
+  Shared design tokens for all three pages (Home, Dashboard, About).
+  Palette: charcoal base with a warm amber-gold accent.
+*/
+
+:root {
+  /* Surfaces */
+  --bg-app: #17181c;
+  --bg-panel: #1c1d22;
+  --bg-card: #212228;
+  --bg-elevated: #26272e;
+  --border: #313239;
+  --border-soft: #2a2b32;
+
+  /* Text */
+  --text-primary: #f2f1ee;
+  --text-secondary: #9a9ba3;
+  --text-muted: #6d6e77;
+
+  /* Accent */
+  --accent: #c99a4e;
+  --accent-strong: #e2b876;
+  --accent-soft: rgba(201, 154, 78, 0.14);
+  --accent-contrast: #1a1408;
+
+  /* Semantic status */
+  --status-positive: #6fa8a3;
+  --status-warning: #d1a13a;
+  --status-critical: #c1595a;
+
+  /* Map */
+  --map-estate-line: #e8b34a;
+  --map-block-line: #6fb3c9;
+  --map-highlight: #ffffff;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --shadow-elevated: 0 16px 45px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-app);
+  color: var(--text-primary);
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+/* Shared scrollbar look */
+.themed-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.themed-scroll::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}

@@ -1,0 +1,74 @@
+#print-legend {
+  display: none;
+}
+
+@media print {
+  .site-header,
+  .sidebar,
+  .floating-toolbar,
+  .map-controls-panel,
+  .operational-dashboard,
+  .maplibregl-ctrl-top-right,
+  .maplibregl-ctrl-top-left {
+    display: none !important;
+  }
+
+  html,
+  body,
+  #app,
+  .dashboard-app,
+  .layout,
+  .map-wrap {
+    height: auto !important;
+    position: static !important;
+    background: #ffffff !important;
+  }
+
+  .map-wrap {
+    width: 100%;
+    height: 170mm;
+    page-break-inside: avoid;
+  }
+
+  #map {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+  }
+
+  .print-header {
+    display: flex !important;
+    flex-direction: column;
+    gap: 2mm;
+    margin-bottom: 5mm;
+    color: #111111;
+  }
+
+  .print-header h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 16pt;
+  }
+
+  .print-header span {
+    font-size: 9pt;
+    color: #444444;
+  }
+
+  #print-legend {
+    display: block !important;
+    position: absolute;
+    left: 6mm;
+    bottom: 6mm;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid #ccc;
+    color: #111111;
+    z-index: 5;
+  }
+
+  #print-legend .legend-title,
+  #print-legend .legend-range,
+  #print-legend .legend-list {
+    color: #111111;
+  }
+}

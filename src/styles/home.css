@@ -1,0 +1,339 @@
+.home-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+code {
+  font-family: var(--font-body);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.9em;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  padding: 64px 28px 56px;
+  background:
+    radial-gradient(680px 360px at 85% -10%, rgba(201, 154, 78, 0.16), transparent 70%),
+    var(--bg-app);
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.eyebrow,
+.section-eyebrow {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+  margin-bottom: 14px;
+}
+
+.hero-copy h1 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.2vw, 48px);
+  line-height: 1.1;
+  margin: 0 0 18px;
+  letter-spacing: -0.01em;
+}
+
+.hero-lead {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 46ch;
+  margin: 0 0 28px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.btn-primary:hover {
+  background: var(--accent-strong);
+}
+
+.btn-ghost {
+  border-color: var(--border);
+  color: var(--text-primary);
+}
+
+.btn-ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero-stat strong {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--text-primary);
+}
+
+.hero-stat span {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.hero-visual {
+  position: relative;
+}
+
+.hero-visual-card {
+  position: relative;
+  aspect-ratio: 4 / 3.4;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-elevated);
+}
+
+#hero-map {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-visual-badge {
+  position: absolute;
+  left: 18px;
+  bottom: -16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+.section {
+  padding: 72px 28px;
+}
+
+.section-alt {
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.section-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 3vw, 32px);
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.section-lead {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  max-width: 74ch;
+  margin: 0 0 36px;
+}
+
+.objective-grid,
+.data-grid,
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.objective-card,
+.data-card,
+.feature-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.objective-card:hover,
+.data-card:hover,
+.feature-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+/* Icon badge used at the top of objective/data/feature cards */
+.icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  margin-bottom: 14px;
+}
+
+.icon-badge svg {
+  width: 20px;
+  height: 20px;
+}
+
+.objective-card h3,
+.feature-card h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.objective-card p,
+.feature-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.data-card-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 4px 10px;
+  margin: 0 0 12px 10px;
+}
+
+.data-card h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  margin: 0 0 8px;
+}
+
+.data-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0 0 12px;
+}
+
+.data-card ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* The flagship feature gets a slightly stronger visual treatment */
+.feature-card-highlight {
+  border-color: var(--accent);
+  background: linear-gradient(160deg, var(--accent-soft), var(--bg-card) 60%);
+}
+
+.feature-card-highlight .icon-badge {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+/* Footer */
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 28px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-panel);
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.site-footer a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 880px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-visual-badge {
+    position: static;
+    display: inline-block;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 520px) {
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

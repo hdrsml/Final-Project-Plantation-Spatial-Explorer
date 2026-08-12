@@ -1,0 +1,2525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 232.4,
+        "TOTAL_FERTILIZER_KG": 3736.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 111.56,
+        "TOTAL_FERTILIZER_KG": 1793.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 180.43,
+        "TOTAL_FERTILIZER_KG": 2900.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 218.97,
+        "TOTAL_FERTILIZER_KG": 3520.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 210.2,
+        "TOTAL_FERTILIZER_KG": 3379.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 231.57,
+        "TOTAL_FERTILIZER_KG": 3722.7,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 60.33,
+        "TOTAL_FERTILIZER_KG": 969.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 271.84,
+        "TOTAL_FERTILIZER_KG": 4674.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 80.9,
+        "TOTAL_FERTILIZER_KG": 1391.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 29.0,
+        "TOTAL_FERTILIZER_KG": 498.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 272.36,
+        "TOTAL_FERTILIZER_KG": 4683.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 67.32,
+        "TOTAL_FERTILIZER_KG": 1157.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 209.75,
+        "TOTAL_FERTILIZER_KG": 3606.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 144.5,
+        "TOTAL_FERTILIZER_KG": 2484.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 247.56,
+        "TOTAL_FERTILIZER_KG": 4262.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 139.48,
+        "TOTAL_FERTILIZER_KG": 2401.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 207.7,
+        "TOTAL_FERTILIZER_KG": 3576.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 186.65,
+        "TOTAL_FERTILIZER_KG": 3213.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 121.78,
+        "TOTAL_FERTILIZER_KG": 2096.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 134.97,
+        "TOTAL_FERTILIZER_KG": 2323.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 206.93,
+        "TOTAL_FERTILIZER_KG": 3562.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 29.86,
+        "TOTAL_FERTILIZER_KG": 513.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 187.15,
+        "TOTAL_FERTILIZER_KG": 3216.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 96.23,
+        "TOTAL_FERTILIZER_KG": 1654.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 102.39,
+        "TOTAL_FERTILIZER_KG": 1760.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 135.31,
+        "TOTAL_FERTILIZER_KG": 2325.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 281.98,
+        "TOTAL_FERTILIZER_KG": 4846.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 21.79,
+        "TOTAL_FERTILIZER_KG": 374.5,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 278.27,
+        "TOTAL_FERTILIZER_KG": 5483.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 188.27,
+        "TOTAL_FERTILIZER_KG": 3710.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 196.33,
+        "TOTAL_FERTILIZER_KG": 3868.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 158.69,
+        "TOTAL_FERTILIZER_KG": 3127.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 114.67,
+        "TOTAL_FERTILIZER_KG": 2259.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 223.46,
+        "TOTAL_FERTILIZER_KG": 4403.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 138.62,
+        "TOTAL_FERTILIZER_KG": 2731.6,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 302.6,
+        "TOTAL_FERTILIZER_KG": 5455.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 237.42,
+        "TOTAL_FERTILIZER_KG": 4280.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 184.52,
+        "TOTAL_FERTILIZER_KG": 3326.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 160.99,
+        "TOTAL_FERTILIZER_KG": 2902.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 77.01,
+        "TOTAL_FERTILIZER_KG": 1388.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 30.06,
+        "TOTAL_FERTILIZER_KG": 541.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 71.45,
+        "TOTAL_FERTILIZER_KG": 1288.0,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 278.26,
+        "TOTAL_FERTILIZER_KG": 3242.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 79.63,
+        "TOTAL_FERTILIZER_KG": 927.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 36.7,
+        "TOTAL_FERTILIZER_KG": 427.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 315.56,
+        "TOTAL_FERTILIZER_KG": 3676.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 249.79,
+        "TOTAL_FERTILIZER_KG": 2910.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 264.16,
+        "TOTAL_FERTILIZER_KG": 3077.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "I01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 148.02,
+        "TOTAL_FERTILIZER_KG": 1724.7,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 102.11,
+        "TOTAL_FERTILIZER_KG": 1292.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 212.61,
+        "TOTAL_FERTILIZER_KG": 2691.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 192.65,
+        "TOTAL_FERTILIZER_KG": 2438.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 18.93,
+        "TOTAL_FERTILIZER_KG": 239.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 283.09,
+        "TOTAL_FERTILIZER_KG": 3583.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 246.69,
+        "TOTAL_FERTILIZER_KG": 3122.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 142.6,
+        "TOTAL_FERTILIZER_KG": 1805.2,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 184.35,
+        "TOTAL_FERTILIZER_KG": 2472.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 299.95,
+        "TOTAL_FERTILIZER_KG": 4022.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 68.7,
+        "TOTAL_FERTILIZER_KG": 921.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 69.19,
+        "TOTAL_FERTILIZER_KG": 927.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 48.07,
+        "TOTAL_FERTILIZER_KG": 644.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 38.38,
+        "TOTAL_FERTILIZER_KG": 514.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G07",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 39.61,
+        "TOTAL_FERTILIZER_KG": 531.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 79.31,
+        "TOTAL_FERTILIZER_KG": 1087.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 228.44,
+        "TOTAL_FERTILIZER_KG": 3131.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 285.87,
+        "TOTAL_FERTILIZER_KG": 3918.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 175.79,
+        "TOTAL_FERTILIZER_KG": 2409.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 171.41,
+        "TOTAL_FERTILIZER_KG": 2349.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 33.28,
+        "TOTAL_FERTILIZER_KG": 456.2,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G06",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 241.7,
+        "TOTAL_FERTILIZER_KG": 3313.2,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 284.21,
+        "TOTAL_FERTILIZER_KG": 3985.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 236.13,
+        "TOTAL_FERTILIZER_KG": 3311.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 106.38,
+        "TOTAL_FERTILIZER_KG": 1491.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 189.41,
+        "TOTAL_FERTILIZER_KG": 2656.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 128.17,
+        "TOTAL_FERTILIZER_KG": 1797.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 85.05,
+        "TOTAL_FERTILIZER_KG": 1192.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G05",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 111.25,
+        "TOTAL_FERTILIZER_KG": 1560.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 19.0,
+        "TOTAL_FERTILIZER_KG": 261.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 235.44,
+        "TOTAL_FERTILIZER_KG": 3239.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 222.88,
+        "TOTAL_FERTILIZER_KG": 3066.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 293.25,
+        "TOTAL_FERTILIZER_KG": 4034.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 34.88,
+        "TOTAL_FERTILIZER_KG": 479.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 233.46,
+        "TOTAL_FERTILIZER_KG": 3211.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 242.92,
+        "TOTAL_FERTILIZER_KG": 3342.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 219.06,
+        "TOTAL_FERTILIZER_KG": 3053.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 285.69,
+        "TOTAL_FERTILIZER_KG": 3982.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 307.09,
+        "TOTAL_FERTILIZER_KG": 4280.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 209.46,
+        "TOTAL_FERTILIZER_KG": 2919.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 328.64,
+        "TOTAL_FERTILIZER_KG": 4581.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 308.54,
+        "TOTAL_FERTILIZER_KG": 4301.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 262.66,
+        "TOTAL_FERTILIZER_KG": 3661.5,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 165.88,
+        "TOTAL_FERTILIZER_KG": 2299.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 144.42,
+        "TOTAL_FERTILIZER_KG": 2002.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 201.85,
+        "TOTAL_FERTILIZER_KG": 2798.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 276.2,
+        "TOTAL_FERTILIZER_KG": 3828.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 202.68,
+        "TOTAL_FERTILIZER_KG": 2809.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 227.45,
+        "TOTAL_FERTILIZER_KG": 3153.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 266.31,
+        "TOTAL_FERTILIZER_KG": 3691.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 216.6,
+        "TOTAL_FERTILIZER_KG": 2879.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 271.81,
+        "TOTAL_FERTILIZER_KG": 3613.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 322.75,
+        "TOTAL_FERTILIZER_KG": 4291.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 84.05,
+        "TOTAL_FERTILIZER_KG": 1117.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 323.63,
+        "TOTAL_FERTILIZER_KG": 4302.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 249.42,
+        "TOTAL_FERTILIZER_KG": 3316.2,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "G01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 270.51,
+        "TOTAL_FERTILIZER_KG": 3596.6,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 5.51,
+        "TOTAL_FERTILIZER_KG": 77.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 218.58,
+        "TOTAL_FERTILIZER_KG": 3073.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 211.48,
+        "TOTAL_FERTILIZER_KG": 2973.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 272.81,
+        "TOTAL_FERTILIZER_KG": 3835.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 150.82,
+        "TOTAL_FERTILIZER_KG": 2120.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 67.04,
+        "TOTAL_FERTILIZER_KG": 942.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "H01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 293.58,
+        "TOTAL_FERTILIZER_KG": 4127.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 12.97,
+        "TOTAL_FERTILIZER_KG": 275.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 173.07,
+        "TOTAL_FERTILIZER_KG": 3681.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 194.13,
+        "TOTAL_FERTILIZER_KG": 4129.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 156.49,
+        "TOTAL_FERTILIZER_KG": 3329.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 186.74,
+        "TOTAL_FERTILIZER_KG": 3972.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 199.45,
+        "TOTAL_FERTILIZER_KG": 4243.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "F01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 322.35,
+        "TOTAL_FERTILIZER_KG": 6857.6,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 136.61,
+        "TOTAL_FERTILIZER_KG": 1660.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 11.49,
+        "TOTAL_FERTILIZER_KG": 139.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 170.49,
+        "TOTAL_FERTILIZER_KG": 2072.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 183.78,
+        "TOTAL_FERTILIZER_KG": 2234.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 90.37,
+        "TOTAL_FERTILIZER_KG": 1098.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 304.95,
+        "TOTAL_FERTILIZER_KG": 3707.4,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 325.88,
+        "TOTAL_FERTILIZER_KG": 3961.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 165.18,
+        "TOTAL_FERTILIZER_KG": 1777.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 121.8,
+        "TOTAL_FERTILIZER_KG": 1310.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 292.86,
+        "TOTAL_FERTILIZER_KG": 3150.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 147.8,
+        "TOTAL_FERTILIZER_KG": 1590.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 77.1,
+        "TOTAL_FERTILIZER_KG": 829.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 42.23,
+        "TOTAL_FERTILIZER_KG": 454.4,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 223.38,
+        "TOTAL_FERTILIZER_KG": 2403.4,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 260.55,
+        "TOTAL_FERTILIZER_KG": 3656.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 221.87,
+        "TOTAL_FERTILIZER_KG": 3113.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 186.36,
+        "TOTAL_FERTILIZER_KG": 2615.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 151.86,
+        "TOTAL_FERTILIZER_KG": 2131.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 297.21,
+        "TOTAL_FERTILIZER_KG": 4171.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 295.77,
+        "TOTAL_FERTILIZER_KG": 4150.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 193.75,
+        "TOTAL_FERTILIZER_KG": 2719.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 210.78,
+        "TOTAL_FERTILIZER_KG": 2529.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 150.95,
+        "TOTAL_FERTILIZER_KG": 1811.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 107.06,
+        "TOTAL_FERTILIZER_KG": 1285.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 164.51,
+        "TOTAL_FERTILIZER_KG": 1974.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 52.46,
+        "TOTAL_FERTILIZER_KG": 629.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 268.12,
+        "TOTAL_FERTILIZER_KG": 3218.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "E04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 53.83,
+        "TOTAL_FERTILIZER_KG": 646.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 157.8,
+        "TOTAL_FERTILIZER_KG": 2197.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 249.47,
+        "TOTAL_FERTILIZER_KG": 3473.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 280.37,
+        "TOTAL_FERTILIZER_KG": 3903.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 299.91,
+        "TOTAL_FERTILIZER_KG": 4175.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 23.51,
+        "TOTAL_FERTILIZER_KG": 327.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 13.42,
+        "TOTAL_FERTILIZER_KG": 186.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 118.56,
+        "TOTAL_FERTILIZER_KG": 1650.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 158.68,
+        "TOTAL_FERTILIZER_KG": 2383.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 192.13,
+        "TOTAL_FERTILIZER_KG": 2885.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 53.76,
+        "TOTAL_FERTILIZER_KG": 807.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 120.63,
+        "TOTAL_FERTILIZER_KG": 1811.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 119.35,
+        "TOTAL_FERTILIZER_KG": 1792.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 21.83,
+        "TOTAL_FERTILIZER_KG": 327.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 219.39,
+        "TOTAL_FERTILIZER_KG": 3294.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 61.33,
+        "TOTAL_FERTILIZER_KG": 1139.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 24.36,
+        "TOTAL_FERTILIZER_KG": 452.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 325.93,
+        "TOTAL_FERTILIZER_KG": 6052.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 163.84,
+        "TOTAL_FERTILIZER_KG": 3042.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 206.34,
+        "TOTAL_FERTILIZER_KG": 3831.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 320.56,
+        "TOTAL_FERTILIZER_KG": 5953.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 115.72,
+        "TOTAL_FERTILIZER_KG": 2149.0,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 285.95,
+        "TOTAL_FERTILIZER_KG": 6303.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 125.36,
+        "TOTAL_FERTILIZER_KG": 2763.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 27.01,
+        "TOTAL_FERTILIZER_KG": 595.4,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 301.79,
+        "TOTAL_FERTILIZER_KG": 6652.8,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 230.61,
+        "TOTAL_FERTILIZER_KG": 5083.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 167.21,
+        "TOTAL_FERTILIZER_KG": 3686.0,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "D04",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 130.05,
+        "TOTAL_FERTILIZER_KG": 2866.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 52.48,
+        "TOTAL_FERTILIZER_KG": 748.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 116.64,
+        "TOTAL_FERTILIZER_KG": 1663.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 303.76,
+        "TOTAL_FERTILIZER_KG": 4332.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 124.14,
+        "TOTAL_FERTILIZER_KG": 1770.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 226.42,
+        "TOTAL_FERTILIZER_KG": 3229.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 173.81,
+        "TOTAL_FERTILIZER_KG": 2478.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A03",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 268.48,
+        "TOTAL_FERTILIZER_KG": 3829.1,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 201.17,
+        "TOTAL_FERTILIZER_KG": 3635.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 156.0,
+        "TOTAL_FERTILIZER_KG": 2819.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 187.84,
+        "TOTAL_FERTILIZER_KG": 3394.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 56.67,
+        "TOTAL_FERTILIZER_KG": 1024.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 85.64,
+        "TOTAL_FERTILIZER_KG": 1547.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 34.06,
+        "TOTAL_FERTILIZER_KG": 615.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B02",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 132.18,
+        "TOTAL_FERTILIZER_KG": 2388.8,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 258.51,
+        "TOTAL_FERTILIZER_KG": 3916.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 245.17,
+        "TOTAL_FERTILIZER_KG": 3713.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 113.72,
+        "TOTAL_FERTILIZER_KG": 1722.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 27.63,
+        "TOTAL_FERTILIZER_KG": 418.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 136.33,
+        "TOTAL_FERTILIZER_KG": 2065.2,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 50.7,
+        "TOTAL_FERTILIZER_KG": 768.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "C01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 231.77,
+        "TOTAL_FERTILIZER_KG": 3510.9,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 265.5,
+        "TOTAL_FERTILIZER_KG": 4295.9,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 274.94,
+        "TOTAL_FERTILIZER_KG": 4448.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 238.17,
+        "TOTAL_FERTILIZER_KG": 3853.7,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 44.75,
+        "TOTAL_FERTILIZER_KG": 724.1,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 102.69,
+        "TOTAL_FERTILIZER_KG": 1661.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 304.01,
+        "TOTAL_FERTILIZER_KG": 4919.0,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "B01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 123.82,
+        "TOTAL_FERTILIZER_KG": 2003.4,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-01",
+        "PERIOD_LABEL": "JANUARY 2026",
+        "DOSAGE_KG_HA": 194.13,
+        "TOTAL_FERTILIZER_KG": 3011.3,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-02",
+        "PERIOD_LABEL": "FEBRUARY 2026",
+        "DOSAGE_KG_HA": 73.53,
+        "TOTAL_FERTILIZER_KG": 1140.6,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-03",
+        "PERIOD_LABEL": "MARCH 2026",
+        "DOSAGE_KG_HA": 244.75,
+        "TOTAL_FERTILIZER_KG": 3796.5,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-04",
+        "PERIOD_LABEL": "APRIL 2026",
+        "DOSAGE_KG_HA": 198.69,
+        "TOTAL_FERTILIZER_KG": 3082.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-05",
+        "PERIOD_LABEL": "MAY 2026",
+        "DOSAGE_KG_HA": 64.53,
+        "TOTAL_FERTILIZER_KG": 1001.0,
+        "STATUS": "Applied"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-06",
+        "PERIOD_LABEL": "JUNE 2026",
+        "DOSAGE_KG_HA": 227.71,
+        "TOTAL_FERTILIZER_KG": 3532.2,
+        "STATUS": "Planned"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "BLOCK": "A01",
+        "PERIOD": "2026-07",
+        "PERIOD_LABEL": "JULY 2026",
+        "DOSAGE_KG_HA": 112.22,
+        "TOTAL_FERTILIZER_KG": 1740.7,
+        "STATUS": "Planned"
+      }
+    }
+  ]
+}
