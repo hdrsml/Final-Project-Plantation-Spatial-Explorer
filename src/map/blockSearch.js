@@ -1,7 +1,7 @@
 import * as maplibregl from "maplibre-gl";
 import { showBlockPopup } from "./blockPopup.js";
 
-export function zoomToBlock(map, blockData, blockName) {
+function zoomToBlock(map, blockData, blockName) {
   const feature = blockData.features.find((f) => f.properties.BLOCK === blockName);
 
   if (!feature) return null;

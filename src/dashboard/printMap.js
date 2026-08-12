@@ -30,10 +30,8 @@ export function initPrintTool(map) {
   const printHeaderTitle = document.getElementById("print-header-title");
   const printHeaderMeta = document.getElementById("print-header-meta");
 
-  // The map canvas keeps whatever pixel size it was last rendered at; once
-  // print CSS resizes .map-wrap we have to explicitly ask MapLibre to
-  // re-measure its container and redraw, otherwise the print output shows a
-  // stretched/cropped leftover frame instead of the current view.
+  // Print CSS resizes .map-wrap, so ask MapLibre to re-measure and redraw —
+  // otherwise the printout shows a stale, wrongly-sized frame.
   window.addEventListener("beforeprint", () => map.resize());
   window.addEventListener("afterprint", () => map.resize());
 

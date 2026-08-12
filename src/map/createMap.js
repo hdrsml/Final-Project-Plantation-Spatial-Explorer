@@ -1,10 +1,7 @@
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-// Vite bundles maplibre-gl's own worker script into a hashed chunk, so its
-// default runtime lookup (a file literally named maplibre-gl-worker.mjs
-// next to itself) 404s in production. Importing it as a URL makes Vite
-// package it correctly and gives MapLibre the real path in both dev and
-// build.
+// MapLibre looks for its worker script next to its own file at runtime —
+// that lookup breaks once Vite bundles it, so point it there explicitly.
 import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 
 maplibregl.setWorkerUrl(maplibreWorkerUrl);
@@ -38,9 +35,8 @@ export function createBaseMap(containerId, options = {}) {
     zoom: options.zoom ?? 2,
     interactive: options.interactive ?? true,
     attributionControl: options.attributionControl ?? true,
-    // Keeps the last rendered frame in the WebGL buffer instead of clearing
-    // it, otherwise the canvas prints blank/stale (browser print & screenshot
-    // capture read the buffer outside the normal render loop).
+    // Keeps the last frame in the WebGL buffer so print/screenshot capture
+    // doesn't grab a blank canvas.
     preserveDrawingBuffer: true,
   });
 }

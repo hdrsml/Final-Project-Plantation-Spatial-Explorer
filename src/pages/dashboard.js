@@ -51,9 +51,7 @@ async function selectBlock(blockName, feature) {
   updateOperationalDashboard(blockName);
 }
 
-// The selected-block highlight is tied to the Feature Inspector's
-// lifetime: it's meant to persist while the inspector is open and
-// disappear the moment the user closes it (or picks a different block).
+// Selected-block highlight persists while the inspector is open, clears on close.
 function closeInspector() {
   document.getElementById("operational-dashboard").classList.add("hidden");
   clearSelectedHighlight(map);
@@ -63,10 +61,8 @@ function closeInspector() {
 
 const map = createBaseMap("map", { center: [0, 0], zoom: 2 });
 
-// MapLibre sizes its canvas to its container at creation time. If the
-// container later changes size for any reason (web font swap reflowing the
-// header, window resize, sidebar changes) the canvas can be left short of
-// the container unless we explicitly tell it to re-measure and redraw.
+// Re-measure the canvas whenever its container resizes (font load, window
+// resize, layout shift) — MapLibre won't pick this up on its own.
 const mapWrapEl = document.querySelector(".map-wrap");
 
 if (window.ResizeObserver && mapWrapEl) {
@@ -74,9 +70,7 @@ if (window.ResizeObserver && mapWrapEl) {
 }
 
 map.addControl(new maplibregl.NavigationControl(), "top-right");
-// bottom-right is reserved for the Feature Inspector panel once a block is
-// selected, and top-right for zoom controls — top-left is the only corner
-// free of custom floating UI at rest.
+// top-left is the only corner free of custom floating UI.
 map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "top-left");
 
 map.on("error", (e) => {
@@ -94,6 +88,11 @@ map.on("load", async () => {
 
   addEstateLayer(map, estateData);
   addBlockLayers(map, blockData);
+
+  // Estate boundary should read above the block grid, but stay below the
+  // hover/selection highlight and labels so those stay usable.
+  map.moveLayer("estate-boundary", "block-hover-highlight");
+
   addThematicLayers(map);
   addAnalysisLayers(map);
 
@@ -156,6 +155,20 @@ map.on("load", async () => {
     map.getCanvas().style.cursor = "";
     map.setFilter("block-hover-highlight", ["==", ["get", "BLOCK"], ""]);
   });
+
+  // Collapse the floating panels on map interaction instead of requiring
+  // the minimize button. Skip Measure mid-draw — it still needs map clicks.
+  function collapseFloatingTools() {
+    document.getElementById("search-tool")?.classList.add("minimized");
+    document.getElementById("print-tool")?.classList.add("minimized");
+
+    if (!drawEngine.isActive()) {
+      document.getElementById("measure-tool")?.classList.add("minimized");
+    }
+  }
+
+  map.on("click", collapseFloatingTools);
+  map.on("dragstart", collapseFloatingTools);
 
   fitBoundsToFeatures(map, estateData, 80);
 });

@@ -2,7 +2,7 @@ import * as maplibregl from "maplibre-gl";
 
 let activePopup = null;
 
-export function boundsCenter(feature) {
+function boundsCenter(feature) {
   const bounds = new maplibregl.LngLatBounds();
 
   feature.geometry.coordinates.flat(Infinity).forEach((value, index, array) => {

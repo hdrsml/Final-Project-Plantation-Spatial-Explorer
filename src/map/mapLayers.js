@@ -28,9 +28,8 @@ export function addBlockLayers(map, blockData) {
     },
   });
 
-  // Persistent highlight for the currently selected block (click or
-  // search) — stays on until the Feature Inspector is closed, unlike the
-  // transient hover highlight below.
+  // Persistent selection highlight — stays until the inspector closes,
+  // unlike the transient hover highlight below.
   map.addLayer({
     id: "block-selected-fill",
     type: "fill",
