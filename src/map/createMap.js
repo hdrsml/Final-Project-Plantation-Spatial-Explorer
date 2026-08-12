@@ -1,5 +1,13 @@
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+// Vite bundles maplibre-gl's own worker script into a hashed chunk, so its
+// default runtime lookup (a file literally named maplibre-gl-worker.mjs
+// next to itself) 404s in production. Importing it as a URL makes Vite
+// package it correctly and gives MapLibre the real path in both dev and
+// build.
+import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
+
+maplibregl.setWorkerUrl(maplibreWorkerUrl);
 
 const IMAGERY_STYLE = {
   version: 8,

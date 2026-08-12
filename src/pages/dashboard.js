@@ -88,7 +88,7 @@ initPrintTool(map);
 document.getElementById("operational-dashboard-close").addEventListener("click", closeInspector);
 
 map.on("load", async () => {
-  const [estateData, blockData] = await Promise.all([loadEstateData(), loadBlockData(), operationalDataReady]);
+  const [estateData, blockData] = await Promise.all([loadEstateData(), loadBlockData()]);
 
   currentBlockData = blockData;
 

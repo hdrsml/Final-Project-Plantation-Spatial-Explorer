@@ -26,3 +26,7 @@ dist-ssr
 
 # Claude Code local tooling (dev-server launch config, session state)
 .claude/
+
+.vercel
+.netlify
+.env*
