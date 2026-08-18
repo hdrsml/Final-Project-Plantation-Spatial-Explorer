@@ -10,7 +10,15 @@ import "maplibre-gl/dist/maplibre-gl.css";
 // Both files are copied into public/maplibre/ (see package.json's version of
 // maplibre-gl — re-copy from node_modules/maplibre-gl/dist/ if it's ever
 // upgraded) so they ship together, unbundled, at matching relative paths.
-maplibregl.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
+//
+// Resolved against document.baseURI (not a root-absolute "/maplibre/...")
+// so it still finds the worker when the whole app is served from a subpath,
+// e.g. GitHub Pages' <user>.github.io/<repo>/ — a literal leading slash
+// would point at the domain root instead and 404, silently breaking every
+// GeoJSON source (block boundaries, thematic layers) since MapLibre tiles
+// GeoJSON through the worker; the raster imagery basemap doesn't need it,
+// which is why only the satellite photo would render.
+maplibregl.setWorkerUrl(new URL("maplibre/maplibre-gl-worker.mjs", document.baseURI).href);
 
 const IMAGERY_STYLE = {
   version: 8,

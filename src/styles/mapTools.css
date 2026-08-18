@@ -127,12 +127,18 @@
 
 /* Floating map controls: Periode, Thematic Map, Division — top-right,
    below the zoom control. Legend appears stacked at the bottom of this
-   same panel once a thematic layer is picked. */
-.map-controls-panel {
+   same panel once a thematic layer is picked.
+   Same pop-out/minimize pattern as .floating-tool (Search/Measure/Print)
+   below, just anchored top-right instead of bottom-left — the widget wraps
+   both the toggle button and the panel so only one of them shows at a time. */
+.map-controls-widget {
   position: absolute;
   top: 130px;
   right: 20px;
   z-index: 10;
+}
+
+.map-controls-panel {
   width: 230px;
   padding: 14px;
   display: flex;
@@ -143,6 +149,21 @@
   border-radius: 12px;
   box-shadow: var(--shadow-elevated);
   backdrop-filter: blur(10px);
+}
+
+.map-controls-widget.minimized .map-controls-panel {
+  display: none;
+}
+
+.map-controls-widget:not(.minimized) .map-controls-toggle-btn {
+  display: none;
+}
+
+/* .floating-tool-header is reused as-is; this just resets the margin since
+   .map-controls-panel already gets spacing between children from its own
+   flex gap. */
+.map-controls-header {
+  margin-bottom: 0;
 }
 
 .toolbar-group {

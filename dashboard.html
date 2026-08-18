@@ -100,32 +100,50 @@
 
           <div class="legend-box hidden" id="print-legend"></div>
 
-          <div class="map-controls-panel" id="map-controls">
-            <div class="toolbar-group toolbar-group--period" id="period-panel">
-              <span class="toolbar-label">Periode</span>
-              <div class="period-slider-row">
-                <input type="range" id="period-slider" min="0" max="0" step="1" value="0" />
-                <span class="period-label" id="period-label">—</span>
+          <div class="map-controls-widget" id="map-controls-widget">
+            <button
+              id="map-controls-toggle-btn"
+              class="tool-toggle-btn map-controls-toggle-btn"
+              type="button"
+              title="Map Controls"
+            >
+              &#9881;
+            </button>
+
+            <div class="map-controls-panel" id="map-controls">
+              <div class="floating-tool-header map-controls-header">
+                <span>Map Controls</span>
+                <button id="map-controls-minimize-btn" class="floating-tool-minimize-btn" type="button" title="Minimize">
+                  &minus;
+                </button>
               </div>
-            </div>
 
-            <div class="toolbar-group">
-              <label class="toolbar-label" for="thematic-layer-select">Thematic Map</label>
-              <select id="thematic-layer-select">
-                <option value="none">None</option>
-                <option value="production" selected>Production (Yield ton/ha)</option>
-                <option value="fertilizer">Fertilizer Status</option>
-              </select>
-            </div>
+              <div class="toolbar-group toolbar-group--period" id="period-panel">
+                <span class="toolbar-label">Periode</span>
+                <div class="period-slider-row">
+                  <input type="range" id="period-slider" min="0" max="0" step="1" value="0" />
+                  <span class="period-label" id="period-label">—</span>
+                </div>
+              </div>
 
-            <div class="toolbar-group">
-              <label class="toolbar-label" for="division-filter">Division</label>
-              <select id="division-filter">
-                <option value="all">All Division</option>
-              </select>
-            </div>
+              <div class="toolbar-group">
+                <label class="toolbar-label" for="thematic-layer-select">Thematic Map</label>
+                <select id="thematic-layer-select">
+                  <option value="none">None</option>
+                  <option value="production" selected>Production (Yield ton/ha)</option>
+                  <option value="fertilizer">Fertilizer Status</option>
+                </select>
+              </div>
 
-            <div class="legend-box hidden" id="map-legend"></div>
+              <div class="toolbar-group">
+                <label class="toolbar-label" for="division-filter">Division</label>
+                <select id="division-filter">
+                  <option value="all">All Division</option>
+                </select>
+              </div>
+
+              <div class="legend-box hidden" id="map-legend"></div>
+            </div>
           </div>
 
           <div class="floating-toolbar">

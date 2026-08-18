@@ -119,6 +119,23 @@ map.on("load", async () => {
   initMeasureTool(drawEngine);
   initPeriodAndLayerControls({ map, blockData, operationalDataReady });
 
+  // Period/Thematic/Division panel: pop-out by default on desktop (existing
+  // behavior), but starts minimized on narrow viewports so it doesn't cover
+  // most of the map — same floating-tool pattern as Search/Measure/Print.
+  const mapControlsWidget = document.getElementById("map-controls-widget");
+
+  if (window.matchMedia("(max-width: 720px)").matches) {
+    mapControlsWidget.classList.add("minimized");
+  }
+
+  document.getElementById("map-controls-toggle-btn").addEventListener("click", () => {
+    mapControlsWidget.classList.remove("minimized");
+  });
+
+  document.getElementById("map-controls-minimize-btn").addEventListener("click", () => {
+    mapControlsWidget.classList.add("minimized");
+  });
+
   const divisionFilterEl = document.getElementById("division-filter");
 
   const searchController = initBlockSearch({
