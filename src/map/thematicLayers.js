@@ -1,21 +1,6 @@
+import { NO_DATA_COLOR, THEMATIC_MODES } from "./thematicConfig.js";
+
 const THEMATIC_SOURCE = "block-thematic";
-
-const PRODUCTION_STOPS = [
-  { value: 0, color: "#2a2b32", label: "0" },
-  { value: 0.8, color: "#6a4a1c", label: "0.8" },
-  { value: 1.6, color: "#a9762c", label: "1.6" },
-  { value: 2.4, color: "#c99a4e", label: "2.4" },
-  { value: 3.2, color: "#e2b876", label: "3.2+" },
-];
-
-// Fertilizer STATUS in the MAPID layer is a workflow state (has the
-// application happened yet), not a dosage-quality rating.
-const FERTILIZER_STOPS = [
-  { value: "Applied", color: "#6fa8a3" },
-  { value: "Planned", color: "#d1a13a" },
-];
-
-const NO_DATA_COLOR = "#3a3b42";
 
 function emptyFC() {
   return { type: "FeatureCollection", features: [] };
@@ -24,53 +9,24 @@ function emptyFC() {
 export function addThematicLayers(map) {
   map.addSource(THEMATIC_SOURCE, { type: "geojson", data: emptyFC() });
 
-  map.addLayer(
-    {
-      id: "production-choropleth",
-      type: "fill",
-      source: THEMATIC_SOURCE,
-      layout: { visibility: "none" },
-      paint: {
-        "fill-color": [
-          "case",
-          ["==", ["get", "_YIELD_TON_HA"], null],
-          NO_DATA_COLOR,
-          [
-            "interpolate",
-            ["linear"],
-            ["get", "_YIELD_TON_HA"],
-            ...PRODUCTION_STOPS.flatMap((stop) => [stop.value, stop.color]),
-          ],
-        ],
-        "fill-opacity": 0.85,
+  Object.values(THEMATIC_MODES).forEach((mode) => {
+    map.addLayer(
+      {
+        id: mode.layerId,
+        type: "fill",
+        source: THEMATIC_SOURCE,
+        layout: { visibility: "none" },
+        paint: mode.paint,
       },
-    },
-    "block-boundary"
-  );
-
-  map.addLayer(
-    {
-      id: "fertilizer-choropleth",
-      type: "fill",
-      source: THEMATIC_SOURCE,
-      layout: { visibility: "none" },
-      paint: {
-        "fill-color": [
-          "match",
-          ["coalesce", ["get", "_FERTILIZER_STATUS"], "No Data"],
-          ...FERTILIZER_STOPS.flatMap((stop) => [stop.value, stop.color]),
-          NO_DATA_COLOR,
-        ],
-        "fill-opacity": 0.85,
-      },
-    },
-    "block-boundary"
-  );
+      "block-boundary"
+    );
+  });
 }
 
-export function setActiveThematicLayer(map, layerKey) {
-  map.setLayoutProperty("production-choropleth", "visibility", layerKey === "production" ? "visible" : "none");
-  map.setLayoutProperty("fertilizer-choropleth", "visibility", layerKey === "fertilizer" ? "visible" : "none");
+export function setActiveThematicLayer(map, activeKey) {
+  Object.entries(THEMATIC_MODES).forEach(([key, mode]) => {
+    map.setLayoutProperty(mode.layerId, "visibility", key === activeKey ? "visible" : "none");
+  });
 }
 
 // A block can have more than one fertilizer record in the same period (one
@@ -110,32 +66,33 @@ export function updateThematicData(map, blockData, period, operationalLookup) {
 }
 
 function legendHtml(layerKey) {
-  if (layerKey === "production") {
+  const mode = THEMATIC_MODES[layerKey];
+
+  if (!mode) return "";
+
+  if (mode.legendKind === "scale") {
     return `
-      <span class="legend-title">Yield (ton/ha)</span>
+      <span class="legend-title">${mode.legendTitle}</span>
       <div class="legend-scale">
-        ${PRODUCTION_STOPS.map((stop) => `<span class="legend-swatch" style="background:${stop.color}"></span>`).join("")}
+        ${mode.stops.map((stop) => `<span class="legend-swatch" style="background:${stop.color}"></span>`).join("")}
       </div>
       <div class="legend-range">
-        <span>${PRODUCTION_STOPS[0].label}</span>
-        <span>${PRODUCTION_STOPS[PRODUCTION_STOPS.length - 1].label}</span>
+        <span>${mode.stops[0].label}</span>
+        <span>${mode.stops[mode.stops.length - 1].label}</span>
       </div>
+      ${mode.legendNote ? `<span class="legend-note">${mode.legendNote}</span>` : ""}
     `;
   }
 
-  if (layerKey === "fertilizer") {
-    return `
-      <span class="legend-title">Fertilizer Status</span>
-      <ul class="legend-list">
-        ${FERTILIZER_STOPS.map(
-          (stop) => `<li><span class="legend-dot" style="background:${stop.color}"></span>${stop.value}</li>`
-        ).join("")}
-        <li><span class="legend-dot" style="background:${NO_DATA_COLOR}"></span>No Data</li>
-      </ul>
-    `;
-  }
-
-  return "";
+  return `
+    <span class="legend-title">${mode.legendTitle}</span>
+    <ul class="legend-list">
+      ${mode.stops
+        .map((stop) => `<li><span class="legend-dot" style="background:${stop.color}"></span>${stop.value}</li>`)
+        .join("")}
+      <li><span class="legend-dot" style="background:${NO_DATA_COLOR}"></span>No Data</li>
+    </ul>
+  `;
 }
 
 // Renders into both the sidebar legend container and the print-only one so

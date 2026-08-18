@@ -1,10 +1,16 @@
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-// MapLibre looks for its worker script next to its own file at runtime —
-// that lookup breaks once Vite bundles it, so point it there explicitly.
-import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 
-maplibregl.setWorkerUrl(maplibreWorkerUrl);
+// MapLibre's worker script itself imports a sibling "./maplibre-gl-shared.mjs"
+// via a plain relative path. Pointing setWorkerUrl() at a Vite `?url` copy of
+// just the worker file breaks that import — Vite only emits the one file it
+// was asked for, so the worker's own module graph 404s at runtime (surfaces
+// as "Failed to load module script ... text/html", since the dev/preview
+// server's fallback routing returns index.html for the missing sibling).
+// Both files are copied into public/maplibre/ (see package.json's version of
+// maplibre-gl — re-copy from node_modules/maplibre-gl/dist/ if it's ever
+// upgraded) so they ship together, unbundled, at matching relative paths.
+maplibregl.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 
 const IMAGERY_STYLE = {
   version: 8,

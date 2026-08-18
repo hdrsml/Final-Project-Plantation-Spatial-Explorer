@@ -47,18 +47,6 @@
           </section>
 
           <section class="panel">
-            <h2 class="panel-title">Overview</h2>
-            <div class="overview-grid overview-grid--single">
-              <div class="overview-chart-card">
-                <span class="overview-chart-title">Block Maturity</span>
-                <div class="overview-chart-canvas overview-chart-canvas--lg">
-                  <canvas id="block-maturity-chart"></canvas>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="panel">
             <h2 class="panel-title">Layers</h2>
             <ul class="layer-list">
               <li class="layer-item">
@@ -74,6 +62,31 @@
                 </label>
               </li>
             </ul>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel-title">Overview</h2>
+            <div class="overview-grid overview-grid--single">
+              <div class="overview-chart-card">
+                <span class="overview-chart-title">Block Maturity</span>
+                <div class="overview-chart-canvas overview-chart-canvas--lg">
+                  <canvas id="block-maturity-chart"></canvas>
+                </div>
+              </div>
+              <div class="overview-chart-card">
+                <span class="overview-chart-title">Estate Yield Trend (ton/ha)</span>
+                <div class="overview-chart-canvas overview-chart-canvas--lg">
+                  <canvas id="estate-yield-chart"></canvas>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2 class="panel-title">Attention List</h2>
+            <p class="panel-caption">Block matang yang yield-nya menyimpang dari rata-rata block matang lain (di estate atau divisi terpilih).</p>
+            <div class="attention-summary" id="attention-summary"></div>
+            <div class="attention-list" id="attention-list"></div>
           </section>
         </aside>
 
@@ -100,7 +113,7 @@
               <label class="toolbar-label" for="thematic-layer-select">Thematic Map</label>
               <select id="thematic-layer-select">
                 <option value="none">None</option>
-                <option value="production">Production (Yield ton/ha)</option>
+                <option value="production" selected>Production (Yield ton/ha)</option>
                 <option value="fertilizer">Fertilizer Status</option>
               </select>
             </div>
@@ -172,7 +185,15 @@
                 </div>
 
                 <div class="print-field">
-                  <label for="print-title">Judul Peta</label>
+                  <label for="print-mode">Mode</label>
+                  <select id="print-mode">
+                    <option value="map">Peta</option>
+                    <option value="summary">Ringkasan Eksekutif</option>
+                  </select>
+                </div>
+
+                <div class="print-field">
+                  <label for="print-title">Judul</label>
                   <input type="text" id="print-title" value="Plantation Spatial Explorer" />
                 </div>
 
@@ -313,6 +334,54 @@
             </div>
           </div>
         </main>
+
+        <div class="print-summary" id="print-summary">
+          <div class="print-summary-header">
+            <h1 id="print-summary-title">Ringkasan Eksekutif</h1>
+            <span id="print-summary-meta">PT Mencari Cinta Sejati</span>
+          </div>
+
+          <div class="print-summary-kpis">
+            <div class="print-summary-kpi">
+              <span>Total Division</span>
+              <strong id="print-summary-division">—</strong>
+            </div>
+            <div class="print-summary-kpi">
+              <span>Total Block</span>
+              <strong id="print-summary-block">—</strong>
+            </div>
+            <div class="print-summary-kpi">
+              <span>Total Area (ha)</span>
+              <strong id="print-summary-area">—</strong>
+            </div>
+            <div class="print-summary-kpi">
+              <span>Yield to Date (ton/ha)</span>
+              <strong id="print-summary-yield">—</strong>
+            </div>
+          </div>
+
+          <div class="print-summary-grid">
+            <div class="print-summary-map-card">
+              <span class="print-summary-label">Estate Map</span>
+              <img id="print-summary-map-img" alt="Estate map snapshot" />
+            </div>
+            <div class="print-summary-side">
+              <div class="print-summary-chart-card">
+                <span class="print-summary-label">Block Maturity</span>
+                <img id="print-summary-maturity-img" alt="Block maturity chart" />
+              </div>
+              <div class="print-summary-chart-card">
+                <span class="print-summary-label">Estate Yield Trend (ton/ha)</span>
+                <img id="print-summary-trend-img" alt="Estate yield trend chart" />
+              </div>
+            </div>
+          </div>
+
+          <div class="print-summary-attention">
+            <span class="print-summary-label">Attention List</span>
+            <div id="print-summary-attention-body"></div>
+          </div>
+        </div>
       </div>
     </div>
 

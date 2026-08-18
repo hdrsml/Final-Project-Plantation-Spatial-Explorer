@@ -4,7 +4,10 @@ function setKpi(key, value) {
   if (el) el.textContent = value;
 }
 
-export function updateKPI(blockData, selectedDivision = "all") {
+// avgYield is optional because it depends on operational data, which loads
+// separately from (and not necessarily before) the spatial block data this
+// function otherwise only needs — see estateInsights.js.
+export function updateKPI(blockData, selectedDivision = "all", avgYield = null) {
   const filteredFeatures =
     selectedDivision === "all"
       ? blockData.features
@@ -20,6 +23,10 @@ export function updateKPI(blockData, selectedDivision = "all") {
   setKpi("division", divisions.size);
   setKpi("block", filteredFeatures.length);
   setKpi("area", totalArea.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+
+  if (avgYield !== null) {
+    setKpi("yield", avgYield.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+  }
 }
 
 export function updateSelectedBlockDashboard(blockFeature, operationalSummary) {

@@ -35,6 +35,11 @@ export async function fetchLayerWithFallback(label, { layerId, projectId }, fall
     console.warn(`MAPID ${label} API failed, using local fallback:`, error);
 
     const response = await fetch(fallbackUrl);
+
+    if (!response.ok) {
+      throw new Error(`Local fallback for ${label} returned ${response.status}`);
+    }
+
     const data = await response.json();
 
     console.log(`${label} data source: local fallback`);

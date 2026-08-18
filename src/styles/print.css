@@ -13,6 +13,16 @@
     display: none !important;
   }
 
+  /* Executive Summary mode swaps the map view for a KPI/chart/attention-list
+     page — the two are mutually exclusive on paper. */
+  body.print-mode-summary .map-wrap {
+    display: none !important;
+  }
+
+  body.print-mode-summary .print-summary {
+    display: block !important;
+  }
+
   html,
   body,
   #app,
@@ -70,5 +80,117 @@
   #print-legend .legend-range,
   #print-legend .legend-list {
     color: #111111;
+  }
+
+  /* Executive Summary layout — a standalone document, not the map header
+     used above (that lives inside .map-wrap, which this mode hides). */
+  .print-summary {
+    color: #111111;
+  }
+
+  .print-summary-header {
+    margin-bottom: 6mm;
+  }
+
+  .print-summary-header h1 {
+    margin: 0 0 2mm;
+    font-family: var(--font-display);
+    font-size: 18pt;
+  }
+
+  .print-summary-header span {
+    font-size: 9pt;
+    color: #444444;
+  }
+
+  .print-summary-label {
+    display: block;
+    margin-bottom: 2mm;
+    font-family: var(--font-display);
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #555555;
+  }
+
+  .print-summary-kpis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4mm;
+    margin-bottom: 7mm;
+    page-break-inside: avoid;
+  }
+
+  .print-summary-kpi {
+    padding: 3mm;
+    border: 1px solid #cccccc;
+    border-radius: 2mm;
+  }
+
+  .print-summary-kpi span {
+    display: block;
+    font-size: 8pt;
+    color: #555555;
+    margin-bottom: 1mm;
+  }
+
+  .print-summary-kpi strong {
+    font-family: var(--font-display);
+    font-size: 15pt;
+  }
+
+  .print-summary-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5mm;
+    margin-bottom: 7mm;
+    page-break-inside: avoid;
+  }
+
+  .print-summary-side {
+    display: flex;
+    flex-direction: column;
+    gap: 5mm;
+  }
+
+  .print-summary-map-card img,
+  .print-summary-chart-card img {
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 2mm;
+  }
+
+  .print-summary-attention {
+    page-break-inside: avoid;
+  }
+
+  /* Reused sidebar components (.attention-*) are styled for the dark
+     dashboard theme — re-tone them for a white printed page instead of
+     pasting a dark widget onto it verbatim. */
+  .print-summary-attention .attention-summary {
+    margin-bottom: 3mm;
+  }
+
+  .print-summary-attention .attention-tag {
+    border-color: #cccccc;
+  }
+
+  .print-summary-attention .attention-items {
+    gap: 2mm;
+  }
+
+  .print-summary-attention .attention-item {
+    background: #f7f6f3;
+    border-color: #dddddd;
+  }
+
+  .print-summary-attention .attention-block {
+    color: #111111;
+  }
+
+  .print-summary-attention .attention-empty {
+    color: #555555;
   }
 }

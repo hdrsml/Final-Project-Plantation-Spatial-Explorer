@@ -20,7 +20,7 @@
       <header id="site-header" class="site-header"></header>
 
       <main class="about-main">
-        <section class="about-hero about-hero--solo">
+        <section class="about-hero">
           <div class="about-hero-inner">
             <img class="about-photo" src="/src/assets/haidar-ismail.png" alt="Haidar Ismail" />
 
@@ -29,7 +29,7 @@
               <h1>Haidar Ismail</h1>
 
               <p class="about-summary">
-                An enthusiastic GIS with a strong background in geospatial technologies, remote sensing, and data visualization. 
+                An enthusiastic GIS with a strong background in geospatial technologies, remote sensing, and data visualization.
                 Passionate about leveraging GIS to solve real-world problems and enhance decision-making processes.
               </p>
 
@@ -45,11 +45,126 @@
             </div>
           </div>
         </section>
+
+        <section class="about-stack">
+          <div class="about-stack-inner">
+            <span class="eyebrow">Cara Kerja &amp; Tech Stack</span>
+            <h2>Dibangun berlapis, seperti kebun itu sendiri</h2>
+            <p class="about-summary">
+              Pohon sawit tumbuh dari akar ke buah — tiap lapisan menopang lapisan di atasnya, dan tidak ada yang bisa
+              dilewati. Aplikasi ini dibangun dengan logika yang sama: lima lapisan teknis, masing-masing dengan satu
+              tanggung jawab jelas.
+            </p>
+
+            <figure class="stack-diagram-figure">
+              <svg
+                class="stack-diagram"
+                viewBox="0 0 640 300"
+                role="img"
+                aria-label="Diagram lima lapisan tech stack dari bawah ke atas: Data (akar), Vite dan Vanilla JavaScript (batang), MapLibre GL JS (cabang), Turf.js (daun), dan Dashboard (buah), dihubungkan oleh alur data yang naik dari akar ke buah."
+              >
+                <defs>
+                  <marker id="stackArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                    <path d="M0,0 L10,5 L0,10 Z" fill="#9a9ba3" />
+                  </marker>
+                </defs>
+
+                <line x1="60" y1="272" x2="60" y2="30" stroke="#3a3b42" stroke-width="1.5" stroke-dasharray="3 4" marker-end="url(#stackArrow)" />
+
+                <g>
+                  <rect x="90" y="240" width="500" height="46" rx="8" fill="#8a6a4a" fill-opacity="0.16" stroke="#8a6a4a" stroke-width="1.5" />
+                  <rect x="90" y="240" width="6" height="46" fill="#8a6a4a" />
+                  <text x="112" y="259" font-size="11" fill="#c2a483" class="stack-diagram-label">AKAR</text>
+                  <text x="112" y="277" font-size="13" fill="#f2f1ee">Data — MAPID API + GeoJSON/JSON lokal</text>
+                </g>
+
+                <g>
+                  <rect x="90" y="184" width="500" height="46" rx="8" fill="#7a6a52" fill-opacity="0.16" stroke="#7a6a52" stroke-width="1.5" />
+                  <rect x="90" y="184" width="6" height="46" fill="#7a6a52" />
+                  <text x="112" y="203" font-size="11" fill="#bcae94" class="stack-diagram-label">BATANG</text>
+                  <text x="112" y="221" font-size="13" fill="#f2f1ee">Vite + Vanilla JavaScript (ES modules)</text>
+                </g>
+
+                <g>
+                  <rect x="90" y="128" width="500" height="46" rx="8" fill="#6fb3c9" fill-opacity="0.16" stroke="#6fb3c9" stroke-width="1.5" />
+                  <rect x="90" y="128" width="6" height="46" fill="#6fb3c9" />
+                  <text x="112" y="147" font-size="11" fill="#9ed3e5" class="stack-diagram-label">CABANG</text>
+                  <text x="112" y="165" font-size="13" fill="#f2f1ee">MapLibre GL JS — peta &amp; interaksi spasial</text>
+                </g>
+
+                <g>
+                  <rect x="90" y="72" width="500" height="46" rx="8" fill="#6a9c6a" fill-opacity="0.16" stroke="#6a9c6a" stroke-width="1.5" />
+                  <rect x="90" y="72" width="6" height="46" fill="#6a9c6a" />
+                  <text x="112" y="91" font-size="11" fill="#9fcf9f" class="stack-diagram-label">DAUN</text>
+                  <text x="112" y="109" font-size="13" fill="#f2f1ee">Turf.js — mengolah koordinat jadi insight</text>
+                </g>
+
+                <g>
+                  <rect x="90" y="16" width="500" height="46" rx="8" fill="#e2b876" fill-opacity="0.18" stroke="#e2b876" stroke-width="1.5" />
+                  <rect x="90" y="16" width="6" height="46" fill="#e2b876" />
+                  <text x="112" y="35" font-size="11" fill="#f0d3a3" class="stack-diagram-label">BUAH</text>
+                  <text x="112" y="53" font-size="13" fill="#f2f1ee">Chart.js + dashboard yang Anda lihat</text>
+                </g>
+              </svg>
+              <figcaption>Alur data naik dari akar (sumber data mentah) ke buah (dashboard siap pakai) — setiap lapisan hanya bergantung pada lapisan tepat di bawahnya.</figcaption>
+            </figure>
+
+            <div class="stack-grid">
+              <div class="stack-item">
+                <span class="stack-item-label" style="--stack-color: #8a6a4a">Akar — Sumber Data</span>
+                <p>
+                  Data spasial &amp; operasional dari MAPID API, dengan GeoJSON/JSON lokal sebagai cadangan offline.
+                  Ini fondasi paling dasar — kalau akarnya salah, semua yang tumbuh di atasnya ikut salah.
+                </p>
+              </div>
+              <div class="stack-item">
+                <span class="stack-item-label" style="--stack-color: #7a6a52">Batang — Vite + Vanilla JS</span>
+                <p>
+                  Sengaja tanpa React/Vue/Angular. Batang yang kokoh tidak butuh cabang tambahan yang tidak perlu —
+                  setiap baris kode bisa ditelusuri langsung ke akarnya, tanpa lapisan abstraksi framework.
+                </p>
+              </div>
+              <div class="stack-item">
+                <span class="stack-item-label" style="--stack-color: #6fb3c9">Cabang — MapLibre GL JS</span>
+                <p>
+                  Cabang yang memberi bentuk nyata: di sinilah data berubah jadi peta interaktif — block, thematic
+                  layer, popup, semua yang bisa disentuh dan dilihat langsung oleh user.
+                </p>
+              </div>
+              <div class="stack-item">
+                <span class="stack-item-label" style="--stack-color: #6a9c6a">Daun — Turf.js</span>
+                <p>
+                  Daun mengubah sinar matahari jadi energi lewat fotosintesis; Turf.js mengubah koordinat mentah jadi
+                  insight — jarak antar block, radius pencarian, klasifikasi performa. Tanpa ini peta cuma gambar,
+                  dengan ini peta bisa "berpikir".
+                </p>
+              </div>
+              <div class="stack-item stack-item--wide">
+                <span class="stack-item-label" style="--stack-color: #e2b876">Buah — Dashboard yang Anda lihat</span>
+                <p>
+                  Chart.js, KPI, Attention List — ini hasil panennya. Semua proses di lapisan bawah bermuara di sini:
+                  angka dan visual yang langsung bisa dipakai untuk mengambil keputusan.
+                </p>
+              </div>
+            </div>
+
+            <div class="stack-methodology">
+              <h3>Metodologi: audit dulu, baru bangun</h3>
+              <p>
+                Bug rusak bukan berarti langsung ditambal. Sebelum menulis satu baris kode perbaikan pun, seluruh
+                alur aplikasi ditelusuri dulu — dari klik user, ke state aplikasi, sampai ke bagaimana peta merender
+                ulang — sampai akar masalahnya benar-benar ketemu, bukan sekadar gejalanya. Prinsip yang sama dipakai
+                di setiap iterasi: <strong>audit → verifikasi dengan data nyata → eksekusi → uji ulang.</strong>
+                Hasilnya bukan sekadar fitur yang "kelihatan jalan", tapi yang terbukti benar sampai ke akarnya.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="site-footer">
         <span>Plantation Spatial Explorer — WebGIS Bootcamp Final Project</span>
-        <a href="/">Kembali ke Home</a>
+        <a href="index.html">Kembali ke Home</a>
       </footer>
     </div>
 

@@ -1,6 +1,15 @@
 import { getAllOperationalRecords } from "../data/operationalData.js";
 import { runBenchmark, runNearbyAnalysis, runPerformanceCluster } from "../map/spatialAnalysis.js";
-import { setAnalysisFeatures, clearAnalysis } from "../map/analysisLayers.js";
+import {
+  setAnalysisFeatures,
+  clearAnalysis,
+  setAnalysisRadius,
+  clearAnalysisRadius,
+  setAnalysisConnectors,
+  clearAnalysisConnectors,
+} from "../map/analysisLayers.js";
+
+const mapHint = (text) => `<div class="analysis-map-hint">${text}</div>`;
 
 function gapRowHtml(label, gapPercent) {
   const sign = gapPercent >= 0 ? "+" : "-";
@@ -32,6 +41,7 @@ function renderBenchmarkResult(result) {
       <div class="analysis-result-row"><span>Average</span><strong>${result.avgYield.toFixed(1)} ton/ha</strong></div>
       ${gapRowHtml("Performance gap", result.gapPercent)}
     </div>
+    ${mapHint("Garis putus-putus di peta menghubungkan block terpilih ke tiap block pembanding.")}
   `;
 }
 
@@ -44,6 +54,7 @@ function renderNearbyResult(result, radiusLabel) {
       <div class="analysis-result-row"><span>With LSU data</span><strong>${result.withLsu}</strong></div>
       <div class="analysis-result-row"><span>With Fertilizer data</span><strong>${result.withFertilizer}</strong></div>
     </div>
+    ${mapHint(`Lingkaran putus-putus di peta menandai radius ${radiusLabel} yang dicari.`)}
   `;
 }
 
@@ -67,6 +78,7 @@ function renderClusterResult(result) {
       <div class="analysis-result-row"><span>Estate Average</span><strong>${result.estateAverage.toFixed(1)} ton/ha</strong></div>
       ${gapRowHtml("Performance gap", result.gapPercent)}
     </div>
+    ${mapHint(`Lingkaran putus-putus di peta menandai radius pencarian cluster ${tierLabel.toLowerCase()}.`)}
   `;
 }
 
@@ -109,6 +121,12 @@ export function initSpatialAnalysisPanel({ map, getBlockData, getSelectedBlock }
       { feature: selected.feature, role: "selected" },
       ...result.comparable.map((entry) => ({ feature: entry.feature, role: "comparable" })),
     ]);
+    clearAnalysisRadius(map);
+    setAnalysisConnectors(
+      map,
+      selected.feature,
+      result.comparable.map((entry) => entry.feature)
+    );
   });
 
   nearbyBtn.addEventListener("click", () => {
@@ -127,6 +145,8 @@ export function initSpatialAnalysisPanel({ map, getBlockData, getSelectedBlock }
       { feature: selected.feature, role: "selected" },
       ...result.nearby.map((entry) => ({ feature: entry.feature, role: "nearby" })),
     ]);
+    clearAnalysisConnectors(map);
+    setAnalysisRadius(map, selected.feature, radiusMeters, "neutral");
   });
 
   clusterBtn.addEventListener("click", () => {
@@ -152,6 +172,16 @@ export function initSpatialAnalysisPanel({ map, getBlockData, getSelectedBlock }
           ]
         : [{ feature: selected.feature, role: "selected" }]
     );
+    clearAnalysisConnectors(map);
+
+    // Only "low"/"high" tiers actually run a radius search (see
+    // runPerformanceCluster) — "unknown"/"normal" never search, so no ring
+    // to show for those.
+    if (result.tier === "low" || result.tier === "high") {
+      setAnalysisRadius(map, selected.feature, radiusMeters, result.tier);
+    } else {
+      clearAnalysisRadius(map);
+    }
   });
 
   function reset() {

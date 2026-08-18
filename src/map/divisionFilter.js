@@ -1,3 +1,5 @@
+import { THEMATIC_LAYER_IDS } from "./thematicConfig.js";
+
 const EMPTY_BLOCK_FILTER = ["==", ["get", "BLOCK"], ""];
 
 // Populates the division <select> from block data and wires map filtering.
@@ -23,8 +25,7 @@ export function initDivisionFilter({ map, blockData, selectEl, onChange }) {
       map.setFilter("block-boundary", null);
       map.setFilter("block-hit-area", null);
       map.setFilter("block-label", null);
-      map.setFilter("production-choropleth", null);
-      map.setFilter("fertilizer-choropleth", null);
+      THEMATIC_LAYER_IDS.forEach((layerId) => map.setFilter(layerId, null));
       map.setFilter("block-hover-highlight", EMPTY_BLOCK_FILTER);
       map.setFilter("block-selected-fill", EMPTY_BLOCK_FILTER);
       map.setFilter("block-selected-highlight", EMPTY_BLOCK_FILTER);
@@ -34,8 +35,7 @@ export function initDivisionFilter({ map, blockData, selectEl, onChange }) {
       map.setFilter("block-boundary", divisionExpression);
       map.setFilter("block-hit-area", divisionExpression);
       map.setFilter("block-label", divisionExpression);
-      map.setFilter("production-choropleth", divisionExpression);
-      map.setFilter("fertilizer-choropleth", divisionExpression);
+      THEMATIC_LAYER_IDS.forEach((layerId) => map.setFilter(layerId, divisionExpression));
       map.setFilter("block-hover-highlight", ["all", divisionExpression, EMPTY_BLOCK_FILTER]);
       map.setFilter("block-selected-fill", ["all", divisionExpression, EMPTY_BLOCK_FILTER]);
       map.setFilter("block-selected-highlight", ["all", divisionExpression, EMPTY_BLOCK_FILTER]);

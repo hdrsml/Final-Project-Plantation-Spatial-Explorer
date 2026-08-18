@@ -72,6 +72,15 @@
   border-radius: 10px;
 }
 
+/* Points the user at the radius ring / connector lines drawn on the map for
+   the result above, so the visualization doesn't go unnoticed. */
+.analysis-map-hint {
+  margin-top: 8px;
+  font-size: 10px;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
 .analysis-result-title {
   font-family: var(--font-display);
   font-size: 13px;
@@ -172,6 +181,15 @@
   border-color: var(--accent);
 }
 
+/* Makes the currently active thematic mode visually obvious against the
+   other toolbar selects (Division has no "active" concept, so this is
+   opt-in via .is-active rather than a blanket rule on .toolbar-group select). */
+.toolbar-group select.is-active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
 .toolbar-group select option {
   color: var(--text-primary);
   background: var(--bg-card);
@@ -230,6 +248,14 @@
   justify-content: space-between;
   margin-top: 4px;
   font-size: 10px;
+  color: var(--text-muted);
+}
+
+.legend-note {
+  display: block;
+  margin-top: 6px;
+  font-size: 10px;
+  font-style: italic;
   color: var(--text-muted);
 }
 
@@ -433,7 +459,21 @@
   cursor: pointer;
 }
 
-/* Print-only header/legend, hidden on screen */
-.print-header {
+/* Print-only header/legend/summary, hidden on screen */
+.print-header,
+.print-summary {
   display: none;
+}
+
+/* Responsive: the floating panels use fixed widths above, which overflow
+   narrow viewports. Shrink them to fit instead of letting them clip off the
+   edge of the screen. Matches dashboard.css's sidebar-stacking breakpoint. */
+@media (max-width: 720px) {
+  .map-controls-panel {
+    width: min(230px, calc(100vw - 40px));
+  }
+
+  .floating-tool-panel {
+    width: min(260px, calc(100vw - 40px));
+  }
 }

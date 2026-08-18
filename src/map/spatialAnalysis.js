@@ -79,7 +79,7 @@ export function runNearbyAnalysis(blockData, selectedFeature, operationalLookup,
   return { radiusMeters, nearby, withProduction, withLsu, withFertilizer };
 }
 
-function classifyPerformance(yieldValue, estateAverage) {
+export function classifyPerformance(yieldValue, estateAverage) {
   if (yieldValue === null || !estateAverage) return "unknown";
   if (yieldValue < estateAverage * LOW_THRESHOLD) return "low";
   if (yieldValue > estateAverage * HIGH_THRESHOLD) return "high";
@@ -117,4 +117,33 @@ export function runPerformanceCluster(blockData, selectedFeature, operationalLoo
   const gapPercent = estateAverage ? ((clusterAverage - estateAverage) / estateAverage) * 100 : null;
 
   return { tier, estateAverage, clusterAverage, gapPercent, selectedYield, members };
+}
+
+// Estate-wide version of the same low/high classification used by
+// Performance Cluster, but scanning every mature block up front instead of
+// waiting for one to be selected — the "what needs attention right now"
+// view an executive or manager wants without drilling into each block.
+export function getEstateAttentionList(features, operationalLookup) {
+  const matureEntries = features
+    .filter((f) => f.properties.REMARKS === "Mature")
+    .map((f) => ({ feature: f, yield: getLatestYield(operationalLookup[f.properties.BLOCK]) }))
+    .filter((entry) => entry.yield !== null);
+
+  const estateAverage = matureEntries.length
+    ? matureEntries.reduce((sum, e) => sum + e.yield, 0) / matureEntries.length
+    : null;
+
+  if (!estateAverage) return { estateAverage: null, low: [], high: [] };
+
+  const classified = matureEntries.map((entry) => ({
+    ...entry,
+    tier: classifyPerformance(entry.yield, estateAverage),
+    gapPercent: ((entry.yield - estateAverage) / estateAverage) * 100,
+  }));
+
+  return {
+    estateAverage,
+    low: classified.filter((e) => e.tier === "low").sort((a, b) => a.gapPercent - b.gapPercent),
+    high: classified.filter((e) => e.tier === "high").sort((a, b) => b.gapPercent - a.gapPercent),
+  };
 }

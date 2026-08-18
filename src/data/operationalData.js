@@ -28,9 +28,9 @@ export async function loadOperationalData() {
   operationalByBlock = {};
 
   const [production, fertilizer, lsu] = await Promise.all([
-    fetchLayerWithFallback("Production", MAPID_LAYERS.production, "/data/production.json"),
-    fetchLayerWithFallback("Fertilizer", MAPID_LAYERS.fertilizer, "/data/fertilizer.json"),
-    fetchLayerWithFallback("LSU", MAPID_LAYERS.lsu, "/data/lsu.json"),
+    fetchLayerWithFallback("Production", MAPID_LAYERS.production, "data/production.json"),
+    fetchLayerWithFallback("Fertilizer", MAPID_LAYERS.fertilizer, "data/fertilizer.json"),
+    fetchLayerWithFallback("LSU", MAPID_LAYERS.lsu, "data/lsu.json"),
   ]);
 
   indexByBlock("production", production);
@@ -58,6 +58,31 @@ export function getOperationalRecords(blockName) {
 
 export function getAllOperationalRecords() {
   return operationalByBlock;
+}
+
+// Average yield per period across the given blocks (division-filtered by
+// the caller) — the estate/division-level counterpart to the per-block
+// production trend chart.
+export function getEstateYieldTrend(blockCodes) {
+  const periodMap = new Map();
+
+  blockCodes.forEach((blockCode) => {
+    const records = operationalByBlock[blockCode]?.production || [];
+
+    records.forEach((r) => {
+      const period = r.properties.PERIOD;
+      const bucket = periodMap.get(period) || { period, label: r.properties.PERIOD_LABEL, yieldSum: 0, count: 0 };
+
+      bucket.yieldSum += Number(r.properties.YIELD_TON_HA || 0);
+      bucket.count += 1;
+
+      periodMap.set(period, bucket);
+    });
+  });
+
+  return [...periodMap.values()]
+    .map((b) => ({ period: b.period, label: b.label, avgYield: b.count ? b.yieldSum / b.count : 0 }))
+    .sort((a, b) => String(a.period).localeCompare(String(b.period)));
 }
 
 export function summarizeBlockOperations(blockName) {

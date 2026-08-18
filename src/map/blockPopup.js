@@ -33,12 +33,12 @@ export function showBlockPopup(map, feature) {
 
       <div class="block-popup-row">
         <span>Plant Year</span>
-        <strong>${PLANT_YEAR}</strong>
+        <strong>${String(PLANT_YEAR).trim()}</strong>
       </div>
 
       <div class="block-popup-row">
         <span>Area</span>
-        <strong>${AREA.toFixed(2)} ha</strong>
+        <strong>${Number(AREA || 0).toFixed(2)} ha</strong>
       </div>
 
       <div class="block-popup-row">

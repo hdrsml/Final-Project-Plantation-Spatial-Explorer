@@ -23,6 +23,7 @@ import { updateKPI, updateSelectedBlockDashboard } from "../dashboard/kpiPanel.j
 import { updateOperationalDashboard, initOperationalDashboardClose } from "../dashboard/operationalPanel.js";
 import { renderOverviewCharts } from "../dashboard/overviewPanel.js";
 import { initSpatialAnalysisPanel } from "../dashboard/spatialAnalysisPanel.js";
+import { initEstateInsights } from "../dashboard/estateInsights.js";
 import { initMeasureTool } from "../dashboard/measurePanel.js";
 import { initPrintTool } from "../dashboard/printMap.js";
 import { initPeriodAndLayerControls } from "../dashboard/periodSelector.js";
@@ -35,6 +36,7 @@ const operationalDataReady = loadOperationalData();
 let selectedBlock = null;
 let drawEngine = null;
 let spatialAnalysis = null;
+let estateInsights = null;
 let currentBlockData = null;
 
 async function selectBlock(blockName, feature) {
@@ -110,8 +112,12 @@ map.on("load", async () => {
     getSelectedBlock: () => selectedBlock,
   });
 
+  initEstateInsights({ map, blockData, operationalDataReady, onSelectBlock: selectBlock }).then((controller) => {
+    estateInsights = controller;
+  });
+
   initMeasureTool(drawEngine);
-  initPeriodAndLayerControls({ map, blockData });
+  initPeriodAndLayerControls({ map, blockData, operationalDataReady });
 
   const divisionFilterEl = document.getElementById("division-filter");
 
@@ -128,6 +134,7 @@ map.on("load", async () => {
     selectEl: divisionFilterEl,
     onChange: (selectedDivision) => {
       updateKPI(blockData, selectedDivision);
+      estateInsights?.refresh(selectedDivision);
       searchController.resetSearch();
       closeInspector();
     },

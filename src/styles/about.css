@@ -6,7 +6,6 @@
 
 .about-main {
   flex: 1;
-  display: flex;
 }
 
 .eyebrow {
@@ -24,12 +23,6 @@
 .about-hero {
   padding: 64px 28px;
   background: radial-gradient(600px 320px at 10% -20%, rgba(201, 154, 78, 0.14), transparent 70%), var(--bg-app);
-}
-
-.about-hero--solo {
-  flex: 1;
-  display: flex;
-  align-items: center;
 }
 
 .about-hero-inner {
@@ -85,6 +78,118 @@
 .about-links a:hover {
   border-color: var(--accent);
   color: var(--accent-strong);
+}
+
+/* Tech stack & methodology */
+.about-stack {
+  padding: 8px 28px 72px;
+  border-top: 1px solid var(--border);
+}
+
+.about-stack-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.about-stack h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 28px);
+  margin: 0 0 14px;
+  letter-spacing: -0.01em;
+}
+
+.stack-diagram-figure {
+  margin: 32px 0 40px;
+  padding: 20px 20px 8px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.stack-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.stack-diagram-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.stack-diagram-figure figcaption {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  max-width: none;
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.stack-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+}
+
+.stack-item--wide {
+  grid-column: 1 / -1;
+}
+
+.stack-item-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--stack-color, var(--accent-strong));
+  margin-bottom: 8px;
+}
+
+.stack-item p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.stack-methodology {
+  padding: 22px 24px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(201, 154, 78, 0.3);
+  border-radius: var(--radius-md);
+}
+
+.stack-methodology h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  margin: 0 0 10px;
+  color: var(--accent-strong);
+}
+
+.stack-methodology p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: none;
+}
+
+.stack-methodology strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+  .stack-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Footer (shared look with home) */

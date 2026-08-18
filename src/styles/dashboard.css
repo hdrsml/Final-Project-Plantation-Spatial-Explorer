@@ -38,6 +38,13 @@
   margin: 0 0 12px;
 }
 
+.panel-caption {
+  margin: -6px 0 12px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
 /* KPI */
 .kpi-grid {
   display: grid;
@@ -147,6 +154,123 @@
   border-radius: 999px;
 }
 
+/* Attention List — estate-wide under/over-performing blocks, sidebar-only
+   (colors match the tier language used by Performance Cluster on the map). */
+.attention-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.attention-tag {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+}
+
+.attention-tag.tier-low {
+  color: var(--status-critical);
+  border-color: var(--status-critical);
+}
+
+.attention-tag.tier-high {
+  color: var(--status-positive);
+  border-color: var(--status-positive);
+}
+
+.attention-empty {
+  margin: 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.attention-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.attention-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.attention-item:hover {
+  border-color: var(--accent);
+}
+
+.attention-dot {
+  width: 8px;
+  height: 8px;
+  margin-top: 4px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.attention-dot.tier-low {
+  background: var(--status-critical);
+}
+
+.attention-dot.tier-high {
+  background: var(--status-positive);
+}
+
+.attention-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.attention-block {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.attention-yield {
+  font-size: 10.5px;
+  color: var(--text-secondary);
+}
+
+.attention-gap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  text-align: right;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.attention-gap small {
+  font-size: 9.5px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--text-muted);
+}
+
+.attention-gap.negative {
+  color: var(--status-critical);
+}
+
+.attention-gap.positive {
+  color: var(--status-positive);
+}
+
 /* Map */
 .map-wrap {
   flex: 1;
@@ -158,18 +282,9 @@
   inset: 0;
 }
 
-/* Responsive */
-@media (max-width: 720px) {
-  .layout {
-    flex-direction: column;
-  }
-  .sidebar {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid var(--border);
-    max-height: 45%;
-  }
-}
+/* Responsive rules for this file are consolidated at the bottom, after every
+   base rule they override — .operational-dashboard's width is set much
+   further down, so an override placed here would lose the cascade. */
 
 /* Block Popup */
 .block-popup {
@@ -441,4 +556,19 @@
 .operational-chart canvas {
   width: 100% !important;
   height: 180px !important;
+}
+
+@media (max-width: 720px) {
+  .layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    max-height: 45%;
+  }
+  .operational-dashboard {
+    width: min(430px, calc(100vw - 40px));
+  }
 }

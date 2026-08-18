@@ -45,20 +45,26 @@ Spatial and operational data are joined client-side by `BLOCK` — there's no ba
 
 **Interactive map** — Estate and Plantation Block boundaries, hover feedback, a persistent highlight for the selected block, block search with autocomplete, and division filtering.
 
-**KPI & overview** — Division / Block / Area / Yield summary that follows the active filter, plus a block maturity breakdown chart.
+**KPI & overview** — Division / Block / Area / Yield summary that follows the active filter, a block maturity breakdown chart, an estate/division yield trend chart, and an **Attention List** of blocks whose yield sits noticeably below or above the average of other mature blocks — each entry shows the actual figure and what it's being compared against, not just a bare percentage, and clicking one flies the map to that block.
 
-**Thematic maps** — Block-level choropleths for **Production** (yield, ton/ha) and **Fertilizer status** (Applied / Planned), driven by a period slider so you can scrub through the available months.
+**Thematic maps** — Block-level choropleths for **Production** (yield, ton/ha, on by default) and **Fertilizer status** (Applied / Planned), driven by a period slider so you can scrub through the available months. Production uses a red-to-green scale (low → high yield); immature (TBM) blocks and blocks with no record for the period are left hollow rather than colored, since a near-zero yield there isn't a performance signal. Both layers are semi-transparent so the satellite basemap stays visible underneath.
 
-**Operational Spatial Analysis** — selecting a block opens a Feature Inspector with three analyses, all backed by Turf.js:
-- *Block Benchmark* — compares the block's yield against nearby comparable (mature) blocks.
-- *Nearby Analysis* — summarizes operational data coverage within a chosen radius.
-- *Performance Cluster* — flags whether a block's under/over-performance is isolated or shared with its neighbors.
+**Operational Spatial Analysis** — selecting a block opens a Feature Inspector with three analyses, all backed by Turf.js. Each one also draws its reasoning on the map, not just in the result panel:
+- *Block Benchmark* — compares the block's yield against nearby comparable (mature) blocks; dashed lines on the map connect the selected block to each one used in the comparison.
+- *Nearby Analysis* — summarizes operational data coverage within a chosen radius; the radius itself is drawn as a ring on the map.
+- *Performance Cluster* — flags whether a block's under/over-performance is isolated or shared with its neighbors; when a cluster is found, the same radius ring is drawn, tinted to match the low/high tier.
 
 **Measure tool** — line (m) and polygon (ha) measurement with a live readout while drawing.
 
-**Print map** — A4/A3, portrait/landscape, with a print-only title, legend, and scale bar.
+**Print map** — two modes. *Peta*: A4/A3, portrait/landscape, with a print-only title, legend, and scale bar. *Ringkasan Eksekutif*: a one-page KPI/chart/Attention List briefing instead of the map — a snapshot of exactly what's on screen (current division filter, current KPI figures, current flagged blocks), captured client-side via canvas export, no server round-trip.
 
 **Not in scope**, by design: authentication, a backend/database, forecasting or ML-based prediction, advanced geoprocessing (intersect, union, spatial join), and real-time collaboration. The point of this project is a focused, understandable WebGIS — not a full plantation management platform.
+
+## Limitations & Disclaimer
+
+- This is a **training/demo project for the MAPID Bootcamp**, not a production plantation management system.
+- All spatial and operational data belongs to a fictional company and was **generated with AI** for demonstration purposes — it does not represent a real plantation and should not be used as a basis for real-world agricultural or operational decisions.
+- There is no automated test or lint suite. Changes are verified through the production build (`npm run build`) and deterministic manual/browser testing rather than a CI test pipeline — reasonable for this project's size, but worth knowing before extending it.
 
 ## Tech Stack
 
@@ -78,14 +84,19 @@ No backend — everything runs client-side, including the spatial-analysis math.
 ```
 src/
   pages/        entry scripts for Home, Dashboard, About
-  map/          MapLibre setup, layers, search, spatial analysis, draw/measure engine
+  map/          MapLibre setup, base/thematic/analysis layers, search, spatial analysis, draw/measure engine
   data/         MAPID fetch + local-fallback data loaders
   services/     MAPID API client
   dashboard/    dashboard UI panels (KPI, operational panel, print, measure, etc.)
   charts/       Chart.js configs
   components/   shared site header
   styles/       theme + per-page CSS
-public/data/    local GeoJSON/JSON fallback datasets
+public/data/      local GeoJSON/JSON fallback datasets
+public/maplibre/  MapLibre's worker script + its own internal dependency, copied
+                  in as plain static files (see the comment in map/createMap.js —
+                  a Vite `?url` import of just the worker file breaks the relative
+                  import inside it). Re-copy from node_modules/maplibre-gl/dist/ if
+                  the maplibre-gl version in package.json is ever upgraded.
 ```
 
 ## Getting Started

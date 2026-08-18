@@ -31,8 +31,8 @@ function animateCount(id, targetValue, { suffix = "", decimals = 0, duration = 9
 
 async function init() {
   const [estateData, blockData] = await Promise.all([
-    fetch("/data/estate.geojson").then((res) => res.json()),
-    fetch("/data/block.geojson").then((res) => res.json()),
+    fetch("data/estate.geojson").then((res) => res.json()),
+    fetch("data/block.geojson").then((res) => res.json()),
   ]);
 
   const totalArea = blockData.features.reduce(
