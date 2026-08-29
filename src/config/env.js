@@ -1,6 +1,7 @@
 const env = import.meta.env;
 
 export const MAPID_API_KEY = env.VITE_MAPID_API_KEY;
+export const MAPID_BASEMAP_KEY = env.VITE_MAPID_BASEMAP_KEY;
 
 export const MAPID_LAYERS = {
   estate: {

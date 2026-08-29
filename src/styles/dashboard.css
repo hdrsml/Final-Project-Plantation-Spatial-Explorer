@@ -282,6 +282,36 @@
   inset: 0;
 }
 
+.dashboard-error {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 30;
+  width: min(460px, calc(100% - 40px));
+  padding: 18px 20px;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--status-critical);
+  border-radius: 12px;
+  background: rgba(23, 24, 28, 0.96);
+  box-shadow: var(--shadow-elevated);
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.dashboard-error.hidden {
+  display: none;
+}
+
+.dashboard-error strong,
+.dashboard-error span {
+  display: block;
+}
+
+.dashboard-error span {
+  margin-top: 8px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
 /* Responsive rules for this file are consolidated at the bottom, after every
    base rule they override — .operational-dashboard's width is set much
    further down, so an override placed here would lose the cascade. */

@@ -38,6 +38,21 @@ let drawEngine = null;
 let spatialAnalysis = null;
 let estateInsights = null;
 let currentBlockData = null;
+let dashboardReady = false;
+
+function showDashboardError(error) {
+  const errorState = document.getElementById("dashboard-error");
+  const errorMessage = document.getElementById("dashboard-error-message");
+
+  console.error("Dashboard initialization failed:", error);
+
+  if (errorMessage) {
+    errorMessage.textContent =
+      "Data peta tidak dapat dimuat. Periksa koneksi dan konfigurasi MAPID, lalu muat ulang halaman.";
+  }
+
+  errorState?.classList.remove("hidden");
+}
 
 async function selectBlock(blockName, feature) {
   await operationalDataReady;
@@ -77,6 +92,10 @@ map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "top-left");
 
 map.on("error", (e) => {
   console.error("Map error:", e?.error || e);
+
+  if (!dashboardReady) {
+    showDashboardError(e?.error || e);
+  }
 });
 
 initPrintTool(map);
@@ -84,7 +103,12 @@ initPrintTool(map);
 document.getElementById("operational-dashboard-close").addEventListener("click", closeInspector);
 
 map.on("load", async () => {
-  const [estateData, blockData] = await Promise.all([loadEstateData(), loadBlockData()]);
+  try {
+    const [estateData, blockData] = await Promise.all([
+      loadEstateData(),
+      loadBlockData(),
+      operationalDataReady,
+    ]);
 
   currentBlockData = blockData;
 
@@ -194,5 +218,10 @@ map.on("load", async () => {
   map.on("click", collapseFloatingTools);
   map.on("dragstart", collapseFloatingTools);
 
-  fitBoundsToFeatures(map, estateData, 80);
+    fitBoundsToFeatures(map, estateData, 80);
+    dashboardReady = true;
+    document.getElementById("dashboard-error")?.classList.add("hidden");
+  } catch (error) {
+    showDashboardError(error);
+  }
 });

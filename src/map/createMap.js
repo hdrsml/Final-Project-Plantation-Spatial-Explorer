@@ -1,5 +1,6 @@
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { MAPID_BASEMAP_KEY } from "../config/env.js";
 
 // MapLibre's worker script itself imports a sibling "./maplibre-gl-shared.mjs"
 // via a plain relative path. Pointing setWorkerUrl() at a Vite `?url` copy of
@@ -16,35 +17,21 @@ import "maplibre-gl/dist/maplibre-gl.css";
 // e.g. GitHub Pages' <user>.github.io/<repo>/ — a literal leading slash
 // would point at the domain root instead and 404, silently breaking every
 // GeoJSON source (block boundaries, thematic layers) since MapLibre tiles
-// GeoJSON through the worker; the raster imagery basemap doesn't need it,
-// which is why only the satellite photo would render.
+// GeoJSON through the worker.
 maplibregl.setWorkerUrl(new URL("maplibre/maplibre-gl-worker.mjs", document.baseURI).href);
 
-const IMAGERY_STYLE = {
-  version: 8,
-  sources: {
-    imagery: {
-      type: "raster",
-      tiles: [
-        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-      ],
-      tileSize: 256,
-      attribution: "Esri World Imagery",
-    },
-  },
-  layers: [
-    {
-      id: "imagery",
-      type: "raster",
-      source: "imagery",
-    },
-  ],
-};
+function mapidBasemapStyleUrl() {
+  const url = new URL("https://basemap.mapid.io/styles/satellite/style.json");
+
+  url.searchParams.set("key", MAPID_BASEMAP_KEY || "");
+
+  return url.href;
+}
 
 export function createBaseMap(containerId, options = {}) {
   return new maplibregl.Map({
     container: containerId,
-    style: IMAGERY_STYLE,
+    style: mapidBasemapStyleUrl(),
     center: options.center || [0, 0],
     zoom: options.zoom ?? 2,
     interactive: options.interactive ?? true,
