@@ -20,18 +20,48 @@ import { MAPID_BASEMAP_KEY } from "../config/env.js";
 // GeoJSON through the worker.
 maplibregl.setWorkerUrl(new URL("maplibre/maplibre-gl-worker.mjs", document.baseURI).href);
 
+const ESRI_IMAGERY_STYLE = {
+  version: 8,
+  sources: {
+    imagery: {
+      type: "raster",
+      tiles: [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      ],
+      tileSize: 256,
+      attribution: "Esri World Imagery",
+    },
+  },
+  layers: [
+    {
+      id: "imagery",
+      type: "raster",
+      source: "imagery",
+    },
+  ],
+};
+
+function hasBasemapKey() {
+  if (typeof MAPID_BASEMAP_KEY !== "string") return false;
+
+  const normalized = MAPID_BASEMAP_KEY.trim().toLowerCase();
+
+  return normalized !== "" && normalized !== "undefined" && normalized !== "null";
+}
+
 function mapidBasemapStyleUrl() {
   const url = new URL("https://basemap.mapid.io/styles/satellite/style.json");
 
-  url.searchParams.set("key", MAPID_BASEMAP_KEY || "");
+  url.searchParams.set("key", MAPID_BASEMAP_KEY);
 
   return url.href;
 }
 
 export function createBaseMap(containerId, options = {}) {
-  return new maplibregl.Map({
+  const useMapidBasemap = hasBasemapKey();
+  const map = new maplibregl.Map({
     container: containerId,
-    style: mapidBasemapStyleUrl(),
+    style: useMapidBasemap ? mapidBasemapStyleUrl() : ESRI_IMAGERY_STYLE,
     center: options.center || [0, 0],
     zoom: options.zoom ?? 2,
     interactive: options.interactive ?? true,
@@ -40,6 +70,30 @@ export function createBaseMap(containerId, options = {}) {
     // doesn't grab a blank canvas.
     preserveDrawingBuffer: true,
   });
+
+  if (!useMapidBasemap) {
+    console.warn("MAPID basemap key is unavailable; using Esri World Imagery fallback.");
+    return map;
+  }
+
+  let fallbackApplied = false;
+
+  function useEsriFallback(errorEvent) {
+    if (fallbackApplied) return;
+
+    fallbackApplied = true;
+    map.off("error", useEsriFallback);
+    console.warn(
+      "MAPID Satellite style failed to load; using Esri World Imagery fallback.",
+      errorEvent?.error || errorEvent
+    );
+    map.setStyle(ESRI_IMAGERY_STYLE);
+  }
+
+  map.on("error", useEsriFallback);
+  map.once("style.load", () => map.off("error", useEsriFallback));
+
+  return map;
 }
 
 export function fitBoundsToFeatures(map, featureCollection, padding = 80) {

@@ -92,10 +92,6 @@ map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "top-left");
 
 map.on("error", (e) => {
   console.error("Map error:", e?.error || e);
-
-  if (!dashboardReady) {
-    showDashboardError(e?.error || e);
-  }
 });
 
 initPrintTool(map);
